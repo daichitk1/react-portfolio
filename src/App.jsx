@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      <div>
+      <div class="relative">
         <AllCommon/>
-        <div className="flex">
+        <div className="flex fixed top-70 right-150">
           <div className="m-auto mx-5 font-bold text-2xl">
             技術/日常ブログを書いています。
           </div>
