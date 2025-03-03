@@ -6,15 +6,13 @@ import {Link, Outlet} from 'react-router-dom';
 const AllCommmon = ()=> {
   return (
       <div className="flex mx-9 my-9 justify-between">
-        <div className="flex">
+        <div className="flex items-center">
           <div className="text-7xl opacity-50">
             Daichi Takei
           </div>
-          <div className="opacity-50">
-            <a href="https://github.com/daichitk1" target="_blank">
-              <img className="rounded-full w-15 h-15" src="../images/github-mark.png" />
-            </a>
-          </div>
+          <a href="https://github.com/daichitk1" target="_blank">
+            <img className="rounded-full w-15 h-15 mx-5 opacity-50" src="../images/github-mark.png" />
+          </a>
         </div>
         <div className="flex my-auto">
           <div className="text-3xl mx-3 underline hover:opacity-50"><Link to="/">ホーム</Link></div>

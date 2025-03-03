@@ -16,11 +16,10 @@ function App() {
           <div className="font-bold text-3xl">
             技術/日常ブログを書いています。
           </div>
-          <div>
             <a href="https://cat-and-mountain.com/blog/">
               <img className="rounded-full w-70 h-70 hover:opacity-50" src="../images/introduction_img.png" />
             </a>
-          </div>
+          
         </div>
       </div>
     </>
