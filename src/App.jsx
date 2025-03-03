@@ -12,14 +12,15 @@ function App() {
     <>
       <div>
         <AllCommon/>
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div className="h-170 flex items-center justify-center">
           <div className="font-bold text-3xl">
             技術/日常ブログを書いています。
           </div>
+          <div>
             <a href="https://cat-and-mountain.com/blog/">
-              <img className="rounded-full w-70 h-70 hover:opacity-50" src="../images/introduction_img.png" />
+              <img className="rounded-full w-70 h-70 mx-auto hover:opacity-50" src="../images/introduction_img.png" />
             </a>
-          
+          </div>
         </div>
       </div>
     </>

@@ -9,60 +9,58 @@ function SkillPage() {
   return (
     <>
       <AllCommon/>
-    <div>
-      <p className="text-4xl">コーディングスキル</p>
-      <div>
-        <div>
-          <div className="mx-auto my-5">
-            <p className="text-2xl">フロントエンド</p>
-            <div>
-              HTML CSS(tailwindcss) JavaScript(react)
-            </div>
-          </div>
-          <div className="mx-auto">
-          <p className="text-2xl">バックエンド</p>
-            <div>
-              Ruby(Ruby on rails)
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="my-9">
-      <p className="text-2xl">これまで</p>
-        <div>
-          Python(大学4年〜大学院2年まで)、C(大学1年〜4年まで)
+        <div className="h-130">
+          <p className="text-4xl">プログラミング</p>
+          <div>
+            <div className="flex justify-center my-5">
+              <div className="rounded-full mx-5 mb-5 bg-blue-300 p-5">
+                <p className="mb-5 text-3xl w-60">フロントエンド</p>
+                <div className="text-xl">
+                  HTML CSS(tailwindcss)
+                  <p>JavaScript(react)</p>
+                </div>
+              </div>
+              <div className="rounded-full mb-5 mx-5 bg-red-300 p-5">
+              <p className="mb-5 text-3xl w-60">バックエンド</p>
+                <div className="text-xl">
+                  Ruby<p>(Ruby on rails)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="my-5">
+            <div className="rounded-full mx-5 mb-5 bg-green-200 p-5 text-xl w-100 mx-auto">
+              <p className="text-3xl">これまで触れた言語</p>
+              <p>Python(大学4年〜大学院2年まで)</p>
+              <p>C(大学1年〜4年まで)</p>
+              <p>Java(半年以下)、SQL(半年以下)</p>
+            </div>
+          </div>
+        </div>
+        <div className="m-auto my-9 h-150">
+          <p className="text-4xl">コーディングスキル</p>
+          <p className="text-2xl">AtCoder</p>
+          <p className="text-xl">プログラミングコンテストに1年以上参加。</p>
+          <p className="text-xl">ランクは茶色(上位25パーセントほど)</p>
+          <div className="m-auto flex justify-center">
+            <a href="https://atcoder.jp/users/TKq">
+              <img className="w-150 h-100 hover:opacity-50" src="../images/atcoder.png" />
+              <p className="w-150 h-10">これまで参加したコンテスト(atcoderページより)</p>
+            </a>
+          </div>
+        </div>
+        <div className="m-auto my-9 h-80">
+          <p className="text-4xl">資格</p>
+          <div>
+            <p className="text-2xl">基本情報技術者試験 合格</p>
+            <a href="https://cat-and-mountain.com/blog/?p=22">
+              <img className="rounded-full w-30 h-30 my-3 mx-auto hover:opacity-50" src="../images/introduction_img.png" />
+              <p className="w-30 mx-auto text-xl">ブログ</p>
+            </a>
+          </div>
         </div>
       </div>
-      <div className="text-2xl">
-        AtCoder
-      </div>
-      <p>大学時代にプログラミングコンテストに1年以上Pythonで参加していました。</p>
-      <p>ランクは茶色(上位25パーセントほど)、最高レートは649です。</p>
-    </div>
-    <div>
-      <p className="text-4xl my-5">開発スキル</p>
-      <div className="mb-2">
-        <p className="text-2xl">経験のあるコーディング環境</p>
-        VsCode、Git、emacs
-      </div>
-      <div className="mb-2">
-        <p className="text-2xl">デプロイ</p>
-        heroku、vercel
-      </div>
-      <div className="mb-2">
-        <p className="text-2xl">PC</p>
-        windows(大学3年まで)、Mac(大学3年から現在、iMacにて個人開発中)
-      </div>
-
-    </div>
-    <div className="my-9">
-      <p className="text-4xl">これまでの学習歴</p>
-      <div>ソフトウェア(学部時代)</div>
-      <div>AI(大学院時代)</div>
-      <div>
-        基本情報技術者試験 合格
-      </div>
-    </div>
     </>
   )
 }
