@@ -36,8 +36,8 @@ function SkillPage() {
       <div className="text-2xl">
         AtCoder
       </div>
-      大学時代にプログラミングコンテストに1年以上Pythonで参加していました。
-        ランクは茶色(上位25パーセントほど)、最高レートは649です。茶色ランクは
+      <p>大学時代にプログラミングコンテストに1年以上Pythonで参加していました。</p>
+      <p>ランクは茶色(上位25パーセントほど)、最高レートは649です。</p>
     </div>
     <div>
       <p className="text-4xl my-5">開発スキル</p>
