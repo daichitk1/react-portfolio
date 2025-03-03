@@ -13,7 +13,7 @@ function ProfilePage() {
         <div className="z-20 mx-auto">
           <div>
             <p className="text-5xl">趣味</p>
-             <p className="text-2xl mb-5">#登山 #サイクリング</p>
+             <p className="text-2xl mb-5">#登山 #サイクリング #マラソン</p>
             <div className="flex justify-center">
               <div className="my-5">
                 <img className="rounded-full w-125 h-100 mx-9" src="../images/Mountain-hobby.JPG" />
@@ -23,7 +23,12 @@ function ProfilePage() {
                 <img className="w-125 h-100 mx-9" src="../images/cycling-hobby.jpg" />
                 京都市内を1日かけてサイクリングしました
               </div>
+              <div className="my-5">
+              <img className="rounded-full w-85 h-100 mx-9" src="../images/marathon-hobby.jpg" />
+                昨年、初めてフルマラソンを走りました。
+              </div>
             </div>
+          
           </div>
 
           <div className="my-5">
