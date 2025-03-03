@@ -59,6 +59,28 @@ function ProductPage() {
             <img className="h-100 w-120 hover:opacity-50" src="../images/interview_exam.png" />
           </a>
         </div>
+
+        <div class="flex justify-center max-width-3xs">
+          <div className="my-20 h-100 w-100">
+            <p className="text-3xl">ポートフォリオサイトを公開</p>
+            <div>
+              JavaScript、HTML&CSSを利用し作成しました。herokuで独自ドメインを適用しデプロイしました。
+            </div>
+            <div className="flex justify-center my-5">
+              <div className="mx-3">
+                <a href="https://github.com/daichitk1/interview_management_app" target="_blank">
+                  <img className="rounded-full w-15 h-15 mx-auto hover:opacity-50" src="../images/github-mark.png" />
+                </a>
+                コード
+              </div>
+            </div>
+            <p className="my-5 text-green-500">#JavaScript #HTML #CSS #heroku</p>
+          </div>
+          <a href="http://portfolio.cat-and-mountain.com/" target="_blank">
+            <img className="mx-10 h-90 w-90 opacity-75 hover:opacity-50" src="../images/portfolio.jpg" />
+            <p>利用した書籍</p>
+          </a>
+        </div>
       </div>
     </>
   )
