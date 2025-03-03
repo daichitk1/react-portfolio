@@ -10,15 +10,17 @@ function App() {
 
   return (
     <>
-      <div class="relative">
+      <div>
         <AllCommon/>
-        <div className="flex fixed top-70 right-150">
-          <div className="m-auto mx-5 font-bold text-2xl">
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="font-bold text-3xl">
             技術/日常ブログを書いています。
           </div>
-          <a href="https://cat-and-mountain.com/blog/">
-            <img className="rounded-full w-70 h-70 hover:opacity-50" src="../images/introduction_img.png" />
-          </a>
+          <div>
+            <a href="https://cat-and-mountain.com/blog/">
+              <img className="rounded-full w-70 h-70 hover:opacity-50" src="../images/introduction_img.png" />
+            </a>
+          </div>
         </div>
       </div>
     </>
