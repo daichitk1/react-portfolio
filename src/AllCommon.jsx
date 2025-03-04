@@ -16,7 +16,7 @@ const AllCommmon = ()=> {
         </div>
         <div className="flex my-auto">
           <div className="text-3xl mx-3 underline hover:opacity-50"><Link to="/">ホーム</Link></div>
-          <div className="text-3xl mx-3 underline hover:opacity-50"><Link to="/product">制作物</Link></div>
+          <div className="text-3xl mx-3 underline hover:opacity-50"><Link to="/product">ニュース</Link></div>
           <div className="text-3xl mx-3 underline hover:opacity-50"><Link to="/profile">自己紹介</Link></div>
           <div className="text-3xl mx-3 underline hover:opacity-50"><Link to="/skill">スキル</Link></div>
         </div>
