@@ -11,7 +11,7 @@ function ProductPage() {
       <AllCommon/>
       <div>
         <div class="flex justify-center">
-          <div className="my-10 h-130 w-100">
+          <div className="my-10 h-80 md:h-130 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">アプリ</div>
             <p className="text-3xl">登山の図鑑アプリを公開</p>
             <div>
@@ -31,16 +31,25 @@ function ProductPage() {
                 </a>
                 ブログ
               </div>
+              <div className="mx-3 block md:hidden">
+                <a href="https://mountain-display-app.vercel.app" target="_blank">
+                <img className="h-15 w-15 hover:opacity-50" src="../images/mountain-app.png" />
+                公開ページ
+                </a>
+              </div>
             </div>
             <p className="my-5 text-green-500">#React #JavaScript #API #HTML #CSS #tailwindcss #Vercel</p>
           </div>
-          <a href="https://mountain-display-app.vercel.app" target="_blank">
-            <img className="h-100 w-100 hover:opacity-50" src="../images/mountain-app.png" />
-          </a>
+          <div className="hidden md:block">
+            <a href="https://mountain-display-app.vercel.app" target="_blank">
+              <img className="hidden md:block h-100 w-100 hover:opacity-50" src="../images/mountain-app.png" />
+            </a>
+          </div>
         </div>
 
+
         <div class="flex justify-center max-width-3xs">
-          <div className="my-10 h-130 w-100">
+          <div className="my-10 h-80 md:h-130 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">アプリ</div>
             <p className="text-3xl">面接管理アプリを公開</p>
             <div>
@@ -54,16 +63,25 @@ function ProductPage() {
                 </a>
                 コード
               </div>
+              <div className="md:hidden block">
+              <a href="https://mysterious-reaches-91685-813905271b2c.herokuapp.com/" target="_blank">
+                <img className=" h-15 w-15 hover:opacity-50" src="../images/interview_exam.png" />
+              </a>
+              公開ページ
+            </div>
             </div>
             <p className="my-5 text-green-500">#Ruby on rails #Ruby #HTML #CSS #heroku</p>
           </div>
-          <a href="https://mysterious-reaches-91685-813905271b2c.herokuapp.com/" target="_blank">
-            <img className="h-100 w-120 hover:opacity-50" src="../images/interview_exam.png" />
-          </a>
+          <div className="mx-3 hidden md:block">
+            <a href="https://mysterious-reaches-91685-813905271b2c.herokuapp.com/" target="_blank">
+              <img className="h-100 w-120 hover:opacity-50" src="../images/interview_exam.png" />
+            </a>
+          </div>
         </div>
 
+
         <div class="flex justify-center max-width-3xs">
-          <div className="my-10 h-130 w-100">
+          <div className="my-10 h-80 md:h-130 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-green-300">資格</div>
             <p className="text-3xl">基本情報技術者試験 合格</p>
             <div>
@@ -79,11 +97,12 @@ function ProductPage() {
             </div>
             <p className="my-5 text-green-500">#資格 #基本情報</p>
           </div>
-          <img className="mx-10 h-90 w-90" src="../images/basic-information.png" />
+          <img className="hidden md:block mx-10 h-90 w-90" src="../images/basic-information.png" />
         </div>
 
+
         <div class="flex justify-center max-width-3xs">
-          <div className="my-10 h-130 w-100">
+          <div className="my-10 h-80 md:h-130 w-100">
             <div className="my-5 rounded-full w-50 text-2xl bg-red-300">ポートフォリオ</div>
             <p className="text-3xl">ポートフォリオサイトを公開</p>
             <div>
@@ -96,13 +115,21 @@ function ProductPage() {
                 </a>
                 コード
               </div>
+              <div className="mx-3 md:hidden block">
+                <a href="http://portfolio.cat-and-mountain.com/" target="_blank">
+                  <img className="mx-10 h-15 w-15 opacity-75 hover:opacity-50" src="../images/portfolio.jpg" />
+                <p>公開ページ</p>
+                </a>
+              </div>
             </div>
             <p className="my-5 text-green-500">#JavaScript #HTML #CSS #heroku</p>
           </div>
-          <a href="http://portfolio.cat-and-mountain.com/" target="_blank">
-            <img className="mx-10 h-90 w-90 opacity-75 hover:opacity-50" src="../images/portfolio.jpg" />
-            <p>利用した書籍</p>
-          </a>
+          <div className="hidden md:block">
+            <a href="http://portfolio.cat-and-mountain.com/" target="_blank">
+              <img className="mx-10 h-90 w-90 opacity-75 hover:opacity-50" src="../images/portfolio.jpg" />
+              <p>利用した書籍</p>
+            </a>
+          </div>
         </div>
       </div>
     </>
