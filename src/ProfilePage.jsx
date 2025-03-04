@@ -14,18 +14,18 @@ function ProfilePage() {
           <div>
             <p className="text-5xl">趣味</p>
              <p className="text-2xl mb-5">#登山 #サイクリング #マラソン</p>
-            <div className="flex justify-center">
-              <div className="my-5">
-                <img className="rounded-full w-110 h-90 mx-9" src="../images/Mountain-hobby.JPG" />
-                神奈川県の丹沢山にチャレンジし、登頂しました(写真は塔ノ岳)
+            <div className="grid grid-cols-1 md:grid-cols-3">
+              <div className="my-5 mx-auto">
+                <img className="rounded-full w-50 h-60 md:w-70 md:h-70 mx-9" src="../images/Mountain-hobby.JPG" />
+                <p className="w-50 md:w-70">神奈川県の丹沢山に登頂しました(写真は塔ノ岳)</p>
               </div>
-              <div className="my-5">
-                <img className="w-90 h-90 mx-9" src="../images/cycling-hobby.jpg" />
-                京都市内を1日かけてサイクリングしました
+              <div className="my-5 mx-auto">
+                <img className="w-50 h-50 md:w-70 md:h-70 mx-9" src="../images/cycling-hobby.jpg" />
+                <p className="w-50 md:w-70">京都市内を1日かけてサイクリングしました</p>
               </div>
-              <div className="my-5">
-              <img className="rounded-full w-80 h-90 mx-9" src="../images/marathon-hobby.jpg" />
-                昨年、初めてフルマラソンを走りました。
+              <div className="my-5 mx-auto">
+              <img className="rounded-full w-50 h-70 md:w-70 md:h-70 mx-9" src="../images/marathon-hobby.jpg" />
+                <p className="w-50 md:w-70">昨年、初めてフルマラソンを走りました。</p>
               </div>
             </div>
           </div>
