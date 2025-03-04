@@ -64,6 +64,26 @@ function ProductPage() {
 
         <div class="flex justify-center max-width-3xs">
           <div className="my-10 h-130 w-100">
+            <div className="my-5 rounded-full w-20 text-2xl bg-green-300">資格</div>
+            <p className="text-3xl">基本情報技術者試験 合格</p>
+            <div>
+              2024年のクリスマスに受験し、合格しました。
+            </div>
+            <div className="flex justify-center my-5">
+              <div className="mx-3">
+                <a href="https://cat-and-mountain.com/blog/?p=22" target="_blank">
+                  <img className="rounded-full w-15 h-15 mx-auto hover:opacity-50" src="../images/introduction_img.png" />
+                </a>
+                ブログ
+              </div>
+            </div>
+            <p className="my-5 text-green-500">#資格 #基本情報</p>
+          </div>
+          <img className="mx-10 h-90 w-90" src="../images/basic-information.png" />
+        </div>
+
+        <div class="flex justify-center max-width-3xs">
+          <div className="my-10 h-130 w-100">
             <div className="my-5 rounded-full w-50 text-2xl bg-red-300">ポートフォリオ</div>
             <p className="text-3xl">ポートフォリオサイトを公開</p>
             <div>

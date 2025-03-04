@@ -16,19 +16,18 @@ function ProfilePage() {
              <p className="text-2xl mb-5">#登山 #サイクリング #マラソン</p>
             <div className="flex justify-center">
               <div className="my-5">
-                <img className="rounded-full w-125 h-100 mx-9" src="../images/Mountain-hobby.JPG" />
-                丹沢山
+                <img className="rounded-full w-110 h-90 mx-9" src="../images/Mountain-hobby.JPG" />
+                神奈川県の丹沢山にチャレンジし、登頂しました(写真は塔ノ岳)
               </div>
               <div className="my-5">
-                <img className="w-125 h-100 mx-9" src="../images/cycling-hobby.jpg" />
+                <img className="w-90 h-90 mx-9" src="../images/cycling-hobby.jpg" />
                 京都市内を1日かけてサイクリングしました
               </div>
               <div className="my-5">
-              <img className="rounded-full w-85 h-100 mx-9" src="../images/marathon-hobby.jpg" />
+              <img className="rounded-full w-80 h-90 mx-9" src="../images/marathon-hobby.jpg" />
                 昨年、初めてフルマラソンを走りました。
               </div>
             </div>
-          
           </div>
 
           <div className="my-5">
@@ -36,7 +35,7 @@ function ProfilePage() {
              <p className="text-2xl mb-5">#ジャグリング</p>
             <div className="flex justify-center">
               <div>
-                <img className="w-90 h-140 mx-auto" src="../images/juggling.PNG" />
+                <img className="w-70 h-100 mx-auto" src="../images/juggling.PNG" />
                 大学時代、シガーボックスでジャグリングをしていました
               </div>
             </div>
