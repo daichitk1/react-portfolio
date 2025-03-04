@@ -10,8 +10,9 @@ function ProductPage() {
     <>
       <AllCommon/>
       <div>
-        <div class="flex justify-center max-width-3xs">
-          <div className="my-20 h-100 w-100">
+        <div class="flex justify-center">
+          <div className="my-10 h-130 w-100">
+            <div className="my-5 rounded-full w-20 text-2xl bg-red-300">アプリ</div>
             <p className="text-3xl">登山の図鑑アプリを公開</p>
             <div>
               知りたい山の情報を簡単に知れる山の図鑑アプリを公開。
@@ -31,7 +32,7 @@ function ProductPage() {
                 ブログ
               </div>
             </div>
-            <p className="my-5 text-green-500">#React #JavaScript #HTML #CSS #tailwindcss #Vercel</p>
+            <p className="my-5 text-green-500">#React #JavaScript #API #HTML #CSS #tailwindcss #Vercel</p>
           </div>
           <a href="https://mountain-display-app.vercel.app" target="_blank">
             <img className="h-100 w-100 hover:opacity-50" src="../images/mountain-app.png" />
@@ -39,7 +40,8 @@ function ProductPage() {
         </div>
 
         <div class="flex justify-center max-width-3xs">
-          <div className="my-20 h-100 w-100">
+          <div className="my-10 h-130 w-100">
+            <div className="my-5 rounded-full w-20 text-2xl bg-red-300">アプリ</div>
             <p className="text-3xl">面接管理アプリを公開</p>
             <div>
               転職活動では、企業によって面接の進度が異なり、進度を管理する必要があります。
@@ -61,7 +63,8 @@ function ProductPage() {
         </div>
 
         <div class="flex justify-center max-width-3xs">
-          <div className="my-20 h-100 w-100">
+          <div className="my-10 h-130 w-100">
+            <div className="my-5 rounded-full w-50 text-2xl bg-red-300">ポートフォリオ</div>
             <p className="text-3xl">ポートフォリオサイトを公開</p>
             <div>
               JavaScript、HTML&CSSを利用し作成しました。herokuで独自ドメインを適用しデプロイしました。
