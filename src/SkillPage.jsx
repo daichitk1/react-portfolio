@@ -13,7 +13,7 @@ function SkillPage() {
         <div className="h-170 md:h-140">
           <p className="text-3xl md:text-4xl">プログラミング</p>
           <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="flex justify-center md:justify-end  my-5">
+            <div className="flex justify-center md:justify-end my-5">
               <div className="rounded-full mx-5 mb-5 bg-blue-300 p-5">
                 <p className="mb-5 text-3xl w-60">フロントエンド</p>
                 <div className="text-xl">
@@ -22,7 +22,7 @@ function SkillPage() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center md:justify-first my-5">
+            <div className="flex justify-center md:justify-normal my-5">
               <div className="rounded-full mb-5 mx-5 bg-red-300 p-5">
                 <p className="mb-5 text-3xl w-60">バックエンド</p>
                 <div className="text-xl">
