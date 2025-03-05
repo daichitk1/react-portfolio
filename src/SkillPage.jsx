@@ -33,10 +33,11 @@ function SkillPage() {
           </div>
           <div className="my-5">
             <div className="rounded-full mx-5 mb-5 bg-green-200 p-5 text-xl w-100 mx-auto">
-              <p className="text-3xl">これまで触れた言語</p>
-              <p>Python(大学4年〜大学院2年まで)</p>
-              <p>C(大学1年〜4年まで)</p>
-              <p>Java(半年以下)、SQL(半年以下)</p>
+              <p className="text-3xl">これまで</p>
+              <p>Python(約3年)</p>
+              <p>C(約4年)</p>
+              <p>Java(半年以下)</p>
+              <p>SQL(半年以下)</p>
             </div>
           </div>
         </div>
