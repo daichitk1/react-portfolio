@@ -1,10 +1,9 @@
-import {Link, Outlet} from 'react-router-dom';
-import AllCommon from './AllCommon';
+import { Link, Outlet } from "react-router-dom";
+import AllCommon from "./AllCommon";
 function SkillPage() {
-
   return (
     <>
-      <AllCommon/>
+      <AllCommon />
       <div className="my-9 px-5">
         <div className="h-190 md:h-130">
           <p className="text-3xl md:text-4xl">プログラミング</p>
@@ -46,8 +45,13 @@ function SkillPage() {
           <p className="text-xl">ランクは茶色(上位25パーセントほど)</p>
           <div className="m-auto flex justify-center">
             <a href="https://atcoder.jp/users/TKq">
-              <img className="md:w-150 md:h-100 m-auto w-100 h-60 hover:opacity-50" src="../images/atcoder.png" />
-              <p className="w-150 h-10">これまで参加したコンテスト(atcoderページより)</p>
+              <img
+                className="md:w-150 md:h-100 m-auto w-100 h-60 hover:opacity-50"
+                src="../images/atcoder.png"
+              />
+              <p className="w-150 h-10">
+                これまで参加したコンテスト(atcoderページより)
+              </p>
             </a>
           </div>
         </div>
@@ -56,14 +60,17 @@ function SkillPage() {
           <div>
             <p className="text-2xl">基本情報技術者試験 合格</p>
             <a href="https://cat-and-mountain.com/blog/?p=22">
-              <img className="rounded-full w-30 h-30 my-3 mx-auto hover:opacity-50" src="../images/introduction_img.png" />
+              <img
+                className="rounded-full w-30 h-30 my-3 mx-auto hover:opacity-50"
+                src="../images/introduction_img.png"
+              />
               <p className="w-30 mx-auto text-xl">ブログ</p>
             </a>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default SkillPage;
