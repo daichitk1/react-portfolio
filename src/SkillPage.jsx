@@ -9,7 +9,7 @@ function SkillPage() {
   return (
     <>
       <AllCommon/>
-      <div className="my-9">
+      <div className="my-9 px-5">
         <div className="h-170 md:h-140">
           <p className="text-3xl md:text-4xl">プログラミング</p>
           <div className="grid grid-cols-1 md:grid-cols-2">

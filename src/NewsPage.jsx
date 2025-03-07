@@ -9,7 +9,7 @@ function ProductPage() {
   return (
     <>
       <AllCommon/>
-      <div>
+      <div className="px-5">
         <div class="flex justify-center">
           <div className="my-10 h-80 md:h-130 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">アプリ</div>

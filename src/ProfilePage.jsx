@@ -8,7 +8,7 @@ function ProfilePage() {
 
   return (
     <>
-      <div >
+      <div>
           <AllCommon/>
         <div className="z-20 mx-auto">
           <div>
