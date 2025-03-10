@@ -7,6 +7,46 @@ function ProductPage() {
       <div className="px-5">
         <div class="flex justify-center">
           <div className="my-10 h-80 md:h-130 w-100">
+            <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
+              ブログ
+            </div>
+            <p className="text-3xl mb-5">ブログの記事一覧</p>
+            <div>
+              <div>
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=26&action=edit">
+                  <p className="text-left text-xl m-2 underline hover:text-blue-400">
+                    フロントエンド、webの学習教材のまとめ
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=22&action=edit">
+                  <p className="text-left text-xl m-2 underline hover:text-blue-400">
+                    2024年に基本情報技術者試験を受けに行った時の話
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=9&action=edit">
+                  <p className="text-left text-xl m-2 underline hover:text-blue-400">
+                    山の図鑑アプリを公開しました
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <a href="https://cat-and-mountain.com/blog/" target="_blank">
+              <img
+                className="m-15 rounded-full hidden md:block h-80 w-80 hover:opacity-50"
+                src="../images/introduction_img.png"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <div className="my-10 h-80 md:h-130 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">
               アプリ
             </div>
