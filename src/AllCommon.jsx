@@ -9,7 +9,7 @@ const AllCommmon = () => {
         </div>
         <a href="https://github.com/daichitk1" target="_blank">
           <img
-            className="rounded-full w-10 h-10 md:w-15 md:h-15 mx-2 md:mx-5 opacity-50"
+            className="rounded-full w-10 h-10 md:w-15 md:h-15 mx-2 md:mx-5 opacity-50 hover:opacity-25"
             src="../images/github-mark.png"
           />
         </a>
