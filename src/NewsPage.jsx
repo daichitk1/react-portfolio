@@ -117,7 +117,7 @@ function ProductPage() {
               </div>
               <div className="mx-3 block md:hidden">
                 <a
-                  href="https://mountain-display-app.vercel.app"
+                  href="https://mountain-display.cat-and-mountain.com/"
                   target="_blank"
                 >
                   <img
