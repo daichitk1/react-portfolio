@@ -1,12 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# はじめに
+reactと使いポートフォリオサイトの作成をしました。<br>
+以前は、Ruby on railsの雛形にrubyを利用しない形でポートフォリオサイトを作成し、公開していました。<br>
+そのため、モダンな技術でポートフォリオサイト作成し直しを公開したいと思いました。<br>
+また、Reactをより使えるようにするためReactについて調べながら開発を進めました。<br>
+特に、コンポーネントの分離とReact routerを使ったページの作成に力を入れました。
+# 使用技術
+HTML、CSS(tailwindcss)、JavaScript(React)<br>
+Vercelにて、公開しました。
+# 公開ページ
+公開したURLはこちらです。
+<a href="https://react-portfolio.cat-and-mountain.com/">ポートフォリオサイト</a>です。
