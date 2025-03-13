@@ -3,30 +3,28 @@ import TemporaryDrawer from "./TemporaryDrawer";
 
 const AllCommmon = () => {
   return (
-    <div className="flex justify-between my-10 mx-5">
+    <div className="flex justify-between m-5">
       <div className="flex items-center">
-        <div className="text-4xl sm:text-5xl md:text-7xl opacity-50">
-          Daichi Takei
-        </div>
+        <div className="text-5xl md:text-7xl opacity-50">Daichi Takei</div>
         <a href="https://github.com/daichitk1" target="_blank">
           <img
-            className="rounded-full w-10 h-10 md:w-15 md:h-15 mx-2 md:mx-5 opacity-50 hover:opacity-25"
+            className="rounded-full w-10 h-10 md:w-15 md:h-15 mx-2 opacity-50 hover:opacity-25"
             src="../images/github-mark.png"
           />
         </a>
       </div>
       <div className="flex my-auto md:justify-end">
-        <div className="w-1 invisible md:w-150 md:visible flex">
-          <div className="text-xl md:text-3xl me-1 md:mx-3 underline hover:opacity-50">
+        <div className="w-1 invisible md:w-100 md:visible flex">
+          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
             <Link to="/">ホーム</Link>
           </div>
-          <div className="text-xl md:text-3xl me-1 md:mx-3 underline hover:opacity-50">
+          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
             <Link to="/product">ニュース</Link>
           </div>
-          <div className="text-xl md:text-3xl me-1 md:mx-3 underline hover:opacity-50">
+          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
             <Link to="/profile">自己紹介</Link>
           </div>
-          <div className="text-xl md:text-3xl me-1 md:mx-3 underline hover:opacity-50">
+          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
             <Link to="/skill">スキル</Link>
           </div>
         </div>
