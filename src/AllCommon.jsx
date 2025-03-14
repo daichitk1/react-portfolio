@@ -7,7 +7,9 @@ const AllCommmon = () => {
     <div>
       <div className="flex justify-between m-5">
         <div className="flex items-center">
-          <div className="text-4xl md:text-7xl opacity-50">Daichi Takei</div>
+          <div className="text-4xl md:text-7xl opacity-50">
+            <Link to="/">Daichi Takei</Link>
+          </div>
           <a href="https://github.com/daichitk1" target="_blank">
             <img
               className="rounded-full w-10 h-10 md:w-15 md:h-15 mx-2 opacity-50 hover:opacity-25"
