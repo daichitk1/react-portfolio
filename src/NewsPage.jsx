@@ -145,7 +145,7 @@ function ProductPage() {
         </div>
 
         <div class="my-10 bg-gray-100 mx-auto md:max-w-250 flex justify-center max-width-3xs flex items-center">
-          <div className="my-10 mx-5 h-80 md:h-100 w-100">
+          <div className="my-10 mx-5 h-90 md:h-100 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">
               アプリ
             </div>
