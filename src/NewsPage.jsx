@@ -8,7 +8,7 @@ function ProductPage() {
         <div className="mx-auto text-4xl text-rose-400 font-bold">ニュース</div>
 
         <div className="my-10 bg-gray-100 mx-auto md:max-w-250 flex justify-center">
-          <div className="mb-10 mx-5 h-60 md:h-100 w-100">
+          <div className="mb-10 mx-5 h-80 md:h-100 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
               ブログ
             </div>
@@ -48,7 +48,7 @@ function ProductPage() {
         </div>
 
         <div class="my-10 bg-gray-100 mx-auto md:max-w-250 flex justify-center flex items-center">
-          <div className="my-10 mx-5 h-80 md:h-100 w-100">
+          <div className="my-10 mx-5 h-90 md:h-100 w-100">
             <div className="my-5 rounded-full w-50 text-2xl bg-red-300">
               ポートフォリオ
             </div>
@@ -83,7 +83,7 @@ function ProductPage() {
         </div>
 
         <div class="my-10 bg-gray-100 mx-auto md:max-w-250 flex justify-center flex items-center">
-          <div className="my-10 mx-5 h-80 md:h-100 w-100">
+          <div className="my-10 mx-5 h-90 md:h-100 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">
               アプリ
             </div>
@@ -229,7 +229,7 @@ function ProductPage() {
         </div>
 
         <div class="my-10 bg-gray-100 mx-auto md:max-w-250 flex justify-center max-width-3xs flex items-center">
-          <div className="my-10 mx-5 h-80 md:h-100 w-100">
+          <div className="my-10 mx-5 h-90 md:h-100 w-100">
             <div className="my-5 rounded-full w-50 text-2xl bg-red-300">
               ポートフォリオ
             </div>
