@@ -18,9 +18,8 @@ ReactDOM.createRoot(root).render(
     <Suspense
       fallback={
         <LinearProgress
-          className="bg-white mx-auto h-screen w-[50vh] flex justify-center items-center"
+          className="bg-white mx-auto h-screen w-[80vh] flex justify-center items-center"
           color="success"
-          bg-color="white"
         />
       }
     >
