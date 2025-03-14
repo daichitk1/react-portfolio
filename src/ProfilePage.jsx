@@ -6,8 +6,11 @@ function ProfilePage() {
       <div>
         <AllCommon />
         <div className="z-20 mx-auto">
-          <div>
-            <p className="text-5xl">趣味</p>
+          <div className="mx-auto text-4xl text-rose-400 font-bold">
+            自己紹介
+          </div>
+          <div className="my-5">
+            <p className="text-3xl">趣味</p>
             <p className="text-2xl mb-5 text-green-500">
               #登山 #サイクリング #マラソン
             </p>
@@ -43,7 +46,7 @@ function ProfilePage() {
           </div>
 
           <div className="my-5 h-150">
-            <p className="text-5xl">特技</p>
+            <p className="text-3xl">特技</p>
             <p className="text-2xl mb-5 text-green-500">#ジャグリング</p>
             <div className="flex justify-center">
               <div>
@@ -51,7 +54,9 @@ function ProfilePage() {
                   className="w-50 h-80 md:w-70 md:h-100 mx-auto"
                   src="../images/juggling.PNG"
                 />
-                大学時代、シガーボックスでジャグリングをしていました
+                <p className="w-50 md:w-70 mx-auto">
+                  大学時代、シガーボックスでジャグリングをしていました
+                </p>
               </div>
             </div>
           </div>

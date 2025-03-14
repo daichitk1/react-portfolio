@@ -5,8 +5,9 @@ function ProductPage() {
     <>
       <AllCommon />
       <div className="px-5">
-        <div class="flex justify-center">
-          <div className="my-10 h-60 md:h-100 w-100">
+        <div className="mx-auto text-4xl text-rose-400 font-bold">ニュース</div>
+        <div className="flex justify-center">
+          <div className="mb-10 h-60 md:h-100 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
               ブログ
             </div>
