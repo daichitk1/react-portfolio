@@ -135,7 +135,10 @@ function ProductPage() {
             </p>
           </div>
           <div className="hidden md:block">
-            <a href="https://mountain-display-app.vercel.app" target="_blank">
+            <a
+              href="https://mountain-display.cat-and-mountain.com/"
+              target="_blank"
+            >
               <img
                 className="hidden md:block h-100 w-100 hover:opacity-50"
                 src="../images/mountain-app.png"
