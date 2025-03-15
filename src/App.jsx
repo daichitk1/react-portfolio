@@ -8,7 +8,7 @@ function App() {
       <div>
         <AllCommon />
         <div className="mx-auto">
-          <div className="mx-auto text-6xl text-rose-400 font-bold">
+          <div className="mx-auto text-4xl md:text-6xl text-rose-400 font-bold">
             ポートフォリオ
           </div>
 
