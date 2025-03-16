@@ -15,7 +15,7 @@ function App() {
           <div className="my-5 mx-auto rounded-full w-70 text-3xl bg-red-300">
             作ったアプリ
           </div>
-          <div class="my-10 bg-gray-300 mx-auto md:max-w-250 flex justify-center flex items-center">
+          <div class="rounded-3xl my-10 bg-gray-300 mx-auto md:max-w-250 flex justify-center flex items-center">
             <div className="my-10 mx-5 w-100">
               <p className=" mb-5 text-3xl text-blue-500 font-bold">
                 登山の図鑑アプリ⛰️
