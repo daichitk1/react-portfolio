@@ -151,7 +151,7 @@ function PortfolioPage() {
           </div>
         </div>
 
-        <div className="bg-blue-200 w-full my-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
+        <div className="bg-blue-200 w-full md:w-250 my-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
           <div className="flex justify-end text-xl sm:text-2xl mx-auto md:mx-0 md:text-3xl">
             技術/日常ブログを書いています。
           </div>

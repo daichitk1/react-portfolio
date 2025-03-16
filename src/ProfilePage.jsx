@@ -64,7 +64,7 @@ function ProfilePage() {
           </div>
           <div>
             <p className="text-3xl text-blue-500 font-bold">特技</p>
-            <div className="flex justify-center rounded-3xl p-5 w-full mx-auto mb-10 bg-pink-200">
+            <div className="flex justify-center rounded-3xl p-5 w-full md:w-200 mx-auto mb-10 bg-pink-200">
               <div>
                 <img
                   className="rounded-2xl w-50 h-80 md:w-70 md:h-100 mx-auto"
