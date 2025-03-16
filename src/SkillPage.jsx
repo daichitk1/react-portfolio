@@ -8,7 +8,7 @@ function SkillPage() {
         <div className="mx-auto mb-7 text-4xl text-rose-400 font-bold">
           スキル
         </div>
-        <div className="h-190 md:h-130">
+        <div className="h-190 md:h-130 bg-pink-100 rounded-3xl p-10">
           <p className="text-2xl md:text-3xl">プログラミング</p>
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex justify-center md:justify-end my-5">

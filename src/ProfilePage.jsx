@@ -28,7 +28,7 @@ function ProfilePage() {
             <p className="text-3xl font-bold text-blue-500">趣味</p>
 
             <div className="grid grid-cols-1">
-              <div className="rounded-3xl p-5 w-screen md:w-200 mx-auto mb-10 bg-pink-200">
+              <div className="rounded-3xl p-5 w-full md:w-200 mx-auto mb-10 bg-pink-200">
                 <img
                   className="rounded-2xl mx-auto w-60 h-40 md:w-80 md:h-70 mx-9"
                   src="../images/Mountain-hobby.JPG"
@@ -40,7 +40,7 @@ function ProfilePage() {
                   (写真は塔ノ岳)
                 </p>
               </div>
-              <div className="rounded-3xl p-5 w-screen md:w-200 mx-auto my-10 bg-pink-200">
+              <div className="rounded-3xl p-5 w-full md:w-200 mx-auto my-10 bg-pink-200">
                 <img
                   className="rounded-2xl mx-auto w-50 h-50 md:w-70 md:h-70 mx-9"
                   src="../images/cycling-hobby.jpg"
@@ -50,7 +50,7 @@ function ProfilePage() {
                   京都市内を1日かけてサイクリングしました
                 </p>
               </div>
-              <div className="rounded-3xl p-5 w-screen md:w-200 mx-auto my-10 bg-pink-200">
+              <div className="rounded-3xl p-5 w-full md:w-200 mx-auto my-10 bg-pink-200">
                 <img
                   className="rounded-2xl w-50 h-70 md:w-70 md:h-70 mx-9 mx-auto"
                   src="../images/marathon-hobby.jpg"
@@ -64,7 +64,7 @@ function ProfilePage() {
           </div>
           <div>
             <p className="text-3xl text-blue-500 font-bold">特技</p>
-            <div className="flex justify-center rounded-3xl p-5 w-200 mx-auto mb-10 bg-pink-200">
+            <div className="flex justify-center rounded-3xl p-5 w-full mx-auto mb-10 bg-pink-200">
               <div>
                 <img
                   className="rounded-2xl w-50 h-80 md:w-70 md:h-100 mx-auto"
