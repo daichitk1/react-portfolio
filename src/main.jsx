@@ -8,7 +8,9 @@ import { lazy } from "react";
 import { Suspense } from "react";
 import LinearProgress from "@mui/joy/LinearProgress";
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const App = lazy(() => sleep(5000).then(() => import("./App.jsx")));
+const PortfolioPage = lazy(() =>
+  sleep(2500).then(() => import("./PortfolioPage.jsx"))
+);
 const NewsPage = lazy(() => import("./NewsPage.jsx"));
 const ProfilePage = lazy(() => import("./ProfilePage.jsx"));
 const SkillPage = lazy(() => import("./SkillPage.jsx"));
@@ -24,7 +26,7 @@ ReactDOM.createRoot(root).render(
       }
     >
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<PortfolioPage />} />
         <Route path="/product" element={<NewsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/skill" element={<SkillPage />} />

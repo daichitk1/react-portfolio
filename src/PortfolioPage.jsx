@@ -2,7 +2,7 @@ import "./App.css";
 import { Link, Outlet } from "react-router-dom";
 import AllCommon from "./AllCommon";
 
-function App() {
+function PortfolioPage() {
   return (
     <>
       <div>
@@ -118,4 +118,4 @@ function App() {
   );
 }
 
-export default App;
+export default PortfolioPage;
