@@ -8,14 +8,15 @@ function PortfolioPage() {
       <div>
         <AllCommon />
         <div className="mx-auto">
-          <div className="mx-auto text-4xl md:text-6xl text-rose-400 font-bold">
+          <div className="mx-auto text-2xl md:text-4xl text-rose-400 font-bold">
             ポートフォリオ
           </div>
 
           <div className="my-5 mx-auto rounded-full w-70 text-3xl bg-red-300">
             作ったアプリ
           </div>
-          <div class="rounded-3xl my-10 bg-gray-300 mx-auto md:max-w-250 flex justify-center flex items-center">
+
+          <div class="rounded-3xl my-10 bg-pink-100 mx-auto md:max-w-250 flex justify-center flex items-center">
             <div className="my-10 mx-5 w-100">
               <p className=" mb-5 text-3xl text-blue-500 font-bold">
                 登山の図鑑アプリ⛰️
@@ -84,22 +85,72 @@ function PortfolioPage() {
                   </a>
                   アプリの開発詳細
                 </div>
-                <div className="mx-3 block md:hidden">
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-3xl my-10 bg-pink-100 mx-10 mx-auto md:max-w-250 flex justify-center flex items-center">
+            <div className="my-10 mx-5 w-100">
+              <p className=" mb-5 text-3xl text-blue-500 font-bold">
+                面接管理アプリ
+              </p>
+
+              <button class="my-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50">
+                <span class="absolute h-56 w-32 rounded-full bg-neutral-950 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+                <span class="relative">
                   <a
-                    href="https://mountain-display.cat-and-mountain.com/"
+                    href="https://mysterious-reaches-91685-813905271b2c.herokuapp.com/"
+                    target="_blank"
+                  >
+                    アプリページへ
+                  </a>
+                </span>
+              </button>
+              <div className="text-left">
+                <p className="mt-4 text-2xl text-blue-500 font-bold">
+                  アプリ概要
+                </p>
+                転職活動では、企業によって面接の進度が異なり、進度を管理する必要があります。
+                そこで面接管理アプリのプロトタイプをRailsで作成し公開しました。
+                <div className="my-5  hidden md:block">
+                  <a
+                    href="https://mysterious-reaches-91685-813905271b2c.herokuapp.com/"
                     target="_blank"
                   >
                     <img
-                      className="h-15 w-15 hover:opacity-50"
-                      src="../images/mountain-app.png"
+                      className="hidden md:block h-100 w-100 hover:opacity-50"
+                      src="../images/interview_exam.png"
                     />
-                    公開ページ
                   </a>
+                </div>
+                <p className="mt-4 text-2xl text-blue-500 font-bold">目的</p>
+                バックエンド(Ruby on rails)の活用と実装
+                <p className="mt-4 text-2xl text-blue-500 font-bold">
+                  利用した技術
+                </p>
+                <div>
+                  プログラミング言語: Ruby(Ruby on rails)、HTML、CSS(Bootstrap)
+                </div>
+                <div>デプロイ: heroku</div>
+              </div>
+              <div className="flex justify-center my-5">
+                <div className="mx-3">
+                  <a
+                    href="https://github.com/daichitk1/interview_management_app"
+                    target="_blank"
+                  >
+                    <img
+                      className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
+                      src="../images/github-mark.png"
+                    />
+                  </a>
+                  コード
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
           <div className="flex justify-end text-xl sm:text-2xl mx-auto md:mx-0 md:text-3xl">
             技術/日常ブログを書いています。
