@@ -30,7 +30,7 @@ export default function TemporaryDrawer() {
           <List>
             <div className="text-3xl mx-5 w-30">メニュー</div>
             <div className="text-2xl w-30 mx-5 my-5 underline hover:opacity-50">
-              <Link to="/">ホーム</Link>
+              <Link to="/">ポートフォリオ</Link>
             </div>
             <div className="text-2xl w-30 mx-5 my-5 underline hover:opacity-50">
               <Link to="/product">ニュース</Link>
