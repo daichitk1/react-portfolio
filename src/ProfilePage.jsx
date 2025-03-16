@@ -6,8 +6,23 @@ function ProfilePage() {
       <div>
         <AllCommon />
         <div className="z-20 mx-auto">
-          <div className="mx-auto text-4xl text-rose-400 font-bold">
-            自己紹介
+          <div className="mx-auto max-w-180">
+            <p className="text-4xl text-rose-400 m-2 font-bold">自己紹介</p>
+            <img
+              className="rounded-full w-50 h-50 mx-auto my-5"
+              src="../images/my_cat.png"
+            />
+            <div class="text-xl rounded-3xl p-5 text-start font-bold">
+              はじめまして、アウトドアと新しいことに挑戦することが好きな26歳です。
+              <br />
+              エンジニアとしてより多くの人に利用してもらうサービスに関わりたいと思い、新卒でSaaS企業に入社し、社会人のキャリアをスタートしました。
+              <br />
+              しかし、前職ではエンジニアのチームに配属することが叶わず、お客様とサービスを介して関わることが多い部署に配属されました。
+              <br />
+              そのような環境で仕事をする中で、自分の中でよりユーザーに近いところで開発を行いたいと思いが強くなっていきました。
+              <br />
+              現在はユーザーのニーズをより反映できるエンジニアになるため、個人開発と資格勉強に取り組んでいます。
+            </div>
           </div>
           <div className="my-5">
             <p className="text-3xl">趣味</p>
@@ -44,7 +59,6 @@ function ProfilePage() {
               </div>
             </div>
           </div>
-
           <div className="my-5 h-150">
             <p className="text-3xl">特技</p>
             <p className="text-2xl mb-5 text-green-500">#ジャグリング</p>
