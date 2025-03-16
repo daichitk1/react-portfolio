@@ -15,7 +15,7 @@ const AllCommmon = () => {
         </a>
       </div>
       <div className="flex my-auto md:justify-end">
-        <div className="w-1 invisible md:w-100 md:visible flex">
+        <div className="w-1 invisible md:w-130 md:visible flex">
           <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
             <Link to="/">ポートフォリオ</Link>
           </div>
