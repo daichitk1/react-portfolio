@@ -51,7 +51,7 @@ function PortfolioPage() {
                   </a>
                 </div>
                 <p className="mt-4 text-2xl text-blue-500 font-bold">目的</p>
-                フロントエンド(React)の活用と実装
+                フロントエンド(React)の学習と実装
                 <p className="mt-4 text-2xl text-blue-500 font-bold">
                   利用した技術
                 </p>
@@ -124,7 +124,7 @@ function PortfolioPage() {
                   </a>
                 </div>
                 <p className="mt-4 text-2xl text-blue-500 font-bold">目的</p>
-                バックエンド(Ruby on rails)の活用と実装
+                バックエンド(Ruby on rails)の学習と実装
                 <p className="mt-4 text-2xl text-blue-500 font-bold">
                   利用した技術
                 </p>
