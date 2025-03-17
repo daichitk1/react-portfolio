@@ -44,7 +44,7 @@ function SkillPage() {
             </div>
           </div>
         </div>
-        <div className="m-auto my-9 h-120 md:h-150">
+        <div className="m-auto my-9">
           <p className="text-2xl md:text-3x text-blue-500">
             コーディングスキル
           </p>
@@ -63,7 +63,7 @@ function SkillPage() {
             </a>
           </div>
         </div>
-        <div className="m-auto my-9 h-80">
+        <div className="m-auto my-9">
           <p className="text-2xl md:text-3xl text-blue-500">資格</p>
           <div>
             <p className="text-xl">基本情報技術者試験 合格</p>
