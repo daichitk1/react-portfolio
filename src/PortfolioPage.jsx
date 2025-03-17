@@ -26,7 +26,7 @@ function PortfolioPage() {
               {(() => {
                 if (mountainApp) {
                   return (
-                    <div className="my-10 mx-5 w-100">
+                    <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
                         登山の図鑑アプリ⛰️
                       </p>
@@ -39,7 +39,7 @@ function PortfolioPage() {
                       </button>
                       <div className="my-5">
                         <img
-                          className="h-90 w-90 mx-auto"
+                          className="h-90 w-80 mx-auto"
                           src="../images/mountain-app.png"
                         />
                       </div>
@@ -47,7 +47,7 @@ function PortfolioPage() {
                   );
                 } else {
                   return (
-                    <div className="my-10 mx-5 w-100">
+                    <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
                         登山の図鑑アプリ⛰️
                       </p>
@@ -130,7 +130,7 @@ function PortfolioPage() {
               {(() => {
                 if (interviewApp) {
                   return (
-                    <div className="my-10 mx-5 w-100">
+                    <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
                         面接管理アプリ
                       </p>
@@ -151,7 +151,7 @@ function PortfolioPage() {
                   );
                 } else {
                   return (
-                    <div className="my-10 mx-5 w-100">
+                    <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
                         面接管理アプリ
                       </p>
