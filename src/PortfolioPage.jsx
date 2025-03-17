@@ -39,7 +39,7 @@ function PortfolioPage() {
                       </button>
                       <div className="my-5">
                         <img
-                          className="h-100 w-100"
+                          className="h-90 w-90 mx-auto"
                           src="../images/mountain-app.png"
                         />
                       </div>
@@ -143,7 +143,7 @@ function PortfolioPage() {
                       </button>
                       <div className="my-5">
                         <img
-                          className="h-100 w-100"
+                          className="h-90 w-90 mx-auto"
                           src="../images/interview_exam.png"
                         />
                       </div>
