@@ -34,39 +34,22 @@ function ProfilePage() {
             <p className="text-3xl font-bold text-blue-500">趣味</p>
 
             <div className="grid grid-cols-1">
-              {(() => {
-                if (mountain) {
-                  return (
-                    <div
-                      className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100 hover:opacity-50"
-                      onClick={() => setMountain(!mountain)}
-                    >
-                      <img
-                        className="rounded-2xl mx-auto w-60 h-40 md:w-80 md:h-70 mx-9"
-                        src="../images/Mountain-hobby.JPG"
-                      />
-                      <div className="font-bold text-blue-500">登山</div>
-                    </div>
-                  );
-                } else {
-                  return (
-                    <div
-                      className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100 position-relative"
-                      onClick={() => setMountain(!mountain)}
-                    >
-                      <img
-                        className="rounded-2xl mx-auto w-60 h-40 md:w-80 md:h-70 mx-9 opacity-75"
-                        src="../images/Mountain-hobby.JPG"
-                      />
-                      <p className="position-absolute w-60 md:w-80 mx-auto top-0 left-0">
-                        神奈川県の丹沢山に登頂しました
-                        <br />
-                        (写真は塔ノ岳)
-                      </p>
-                    </div>
-                  );
-                }
-              })()}
+              <div
+                className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100 hover:opacity-50"
+                onClick={() => setMountain(!mountain)}
+              >
+                <img
+                  className="rounded-2xl mx-auto w-60 h-40 md:w-80 md:h-70 mx-9"
+                  src="../images/Mountain-hobby.JPG"
+                />
+                <div className="font-bold text-blue-500">登山</div>
+                <p className="position-absolute w-60 md:w-80 mx-auto top-0 left-0">
+                  神奈川県の丹沢山に登頂しました
+                  <br />
+                  (写真は塔ノ岳)
+                </p>
+              </div>
+
               <div className="rounded-3xl p-5 w-full md:w-250 mx-auto my-10 bg-pink-100">
                 <img
                   className="rounded-2xl mx-auto w-50 h-50 md:w-70 md:h-70 mx-9"

@@ -17,11 +17,11 @@ function PortfolioPage() {
           <div className="my-5 mx-auto rounded-full w-70 text-3xl bg-red-300">
             作ったアプリ
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 flex justify-center lg:max-w-250 lg:mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 flex justify-center lg:max-w-280 lg:mx-auto">
             <div
               className={`h-170 rounded-3xl my-10 ${
-                mountainApp ? "bg-pink-100" : "bg-blue-200"
-              } lg:max-w-250 mx-auto  flex justify-center flex items-center`}
+                mountainApp ? "bg-pink-200" : "bg-blue-200"
+              } lg:max-w-250 mx-auto  flex justify-center w-full sm:w-120 flex items-center`}
             >
               {(() => {
                 if (mountainApp) {
@@ -124,8 +124,8 @@ function PortfolioPage() {
 
             <div
               className={`h-170 rounded-3xl my-10 ${
-                interviewApp ? "bg-pink-100" : "bg-blue-200"
-              } lg:max-w-250 mx-auto  flex justify-center flex items-center`}
+                interviewApp ? "bg-pink-200" : "bg-blue-200"
+              } lg:max-w-250 mx-auto  flex justify-center w-full sm:w-120 flex items-center`}
             >
               {(() => {
                 if (interviewApp) {
