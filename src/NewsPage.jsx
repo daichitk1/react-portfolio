@@ -40,7 +40,7 @@ function ProductPage() {
           <div className="hidden md:block">
             <a href="https://cat-and-mountain.com/blog/" target="_blank">
               <img
-                className="m-15 rounded-full hidden md:block h-80 w-80 hover:opacity-50"
+                className="m-15 rounded-full m-3 hidden md:block h-80 w-80 hover:opacity-50"
                 src="../images/introduction_img.png"
               />
             </a>
@@ -76,7 +76,7 @@ function ProductPage() {
           </div>
           <div className="hidden md:block">
             <img
-              className="hidden md:block w-100"
+              className="hidden m-3 md:block w-100"
               src="../images/react_portfolio.png"
             />
           </div>
@@ -140,7 +140,7 @@ function ProductPage() {
               target="_blank"
             >
               <img
-                className="hidden md:block h-100 w-100 hover:opacity-50"
+                className="hidden md:block m-3 h-100 w-100 hover:opacity-50"
                 src="../images/mountain-app.png"
               />
             </a>
@@ -193,7 +193,7 @@ function ProductPage() {
               target="_blank"
             >
               <img
-                className="h-100 w-120 hover:opacity-50"
+                className="h-100 w-120 m-3 hover:opacity-50"
                 src="../images/interview_exam.png"
               />
             </a>
@@ -226,7 +226,7 @@ function ProductPage() {
             <p className="my-5 text-green-500">#資格 #基本情報</p>
           </div>
           <img
-            className="hidden md:block mx-10 h-90 w-90"
+            className="hidden md:block m-3 mx-10 h-90 w-90"
             src="../images/basic-information.png"
           />
         </div>
@@ -273,7 +273,7 @@ function ProductPage() {
           <div className="hidden md:block">
             <a href="http://portfolio.cat-and-mountain.com/" target="_blank">
               <img
-                className="mx-10 h-90 w-90 opacity-75 hover:opacity-50"
+                className="mx-10 h-90 w-90 m-3 opacity-75 hover:opacity-50"
                 src="../images/portfolio.jpg"
               />
               <p>利用した書籍</p>
