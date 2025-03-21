@@ -43,10 +43,15 @@ function ProfilePage() {
                   src="../images/Mountain-hobby.JPG"
                 />
                 <div className="font-bold text-blue-500">登山</div>
-                <p className="position-absolute w-60 md:w-80 mx-auto top-0 left-0">
-                  神奈川県の丹沢山に登頂しました
+                <p className="position-absolute w-60 md:w-80 mx-auto top-0 left-0 text-left font-bold">
+                  今年の元旦に神奈川県の丹沢山に登頂しました (写真は塔ノ岳)
                   <br />
-                  (写真は塔ノ岳)
+                  昨年は、年25日ほど山に登りました。
+                  <br />
+                  <b>登った山</b>
+                  <br />
+                  富士山、雲取山(都内最高峰)、至仏山(尾瀬) <br />
+                  など
                 </p>
               </div>
 
@@ -56,8 +61,10 @@ function ProfilePage() {
                   src="../images/cycling-hobby.jpg"
                 />
                 <div className="font-bold text-blue-500">サイクリング</div>
-                <p className="w-50 md:w-70 mx-auto">
-                  京都市内を1日かけてサイクリングしました
+                <p className="w-50 md:w-70 mx-auto text-left font-bold">
+                  昨年、京都市内を1日かけてサイクリングしました。
+                  <br />
+                  新しい街で知らない一面をサイクリングで見るのが好きです。
                 </p>
               </div>
               <div className="rounded-3xl p-5 w-full md:w-250 mx-auto my-10 bg-pink-100">
@@ -66,8 +73,12 @@ function ProfilePage() {
                   src="../images/marathon-hobby.jpg"
                 />
                 <div className="font-bold text-blue-500">ランニング</div>
-                <p className="w-50 md:w-70 mx-auto">
+                <p className="w-50 md:w-70 mx-auto text-left font-bold">
                   昨年、初めてフルマラソンを走りました。
+                  <br />
+                  中高陸上部でしたが、ハーフまでしか大会で走ったことがなかったのでチャレンジしました。
+                  <br />
+                  約1週間の練習ののち、なんとか完走しました。
                 </p>
               </div>
             </div>
@@ -81,8 +92,10 @@ function ProfilePage() {
                   src="../images/juggling.PNG"
                 />
                 <div className="font-bold text-blue-500">ジャグリング</div>
-                <p className="w-50 md:w-70 mx-auto">
-                  大学時代、シガーボックスでジャグリングをしていました
+                <p className="w-50 md:w-70 mx-auto font-bold text-left">
+                  大学時代、シガーボックスでジャグリングをしていました。
+                  <br />
+                  大学時代にサークルで大道芸サークルに入っており、学園祭や近所のイベントでパフォーマンスをしていました。
                 </p>
               </div>
             </div>
