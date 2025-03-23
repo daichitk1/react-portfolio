@@ -4,7 +4,7 @@ import LinearProgress from "@mui/material/LinearProgress";
 import { Suspense } from "react";
 const AllCommmon = () => {
   return (
-    <div className="flex justify-between h-20 m-5">
+    <div className="flex justify-between h-20 m-5 sticky top-0">
       <div className="flex items-center">
         <div className="text-4xl md:text-5xl lg:text-7xl opacity-50">
           Daichi Takei

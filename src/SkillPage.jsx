@@ -52,7 +52,7 @@ function SkillPage() {
           <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
             <p className="text-xl text-red-500 font-bold">AtCoder</p>
             <div>
-              <p className="my-3 mx-auto font-bold text-left w-100">
+              <p className="my-3 mx-auto font-bold text-left md:w-100">
                 2021末からPythonを習得するためにプログラミングコンテストAtCoderに1年以上参加しました。
                 <br />
                 AtCoderは毎週末(土曜または日曜)にコンテストを開催しており1週間過去問で練習をし、本番のコンテストで力試しをしていました。
@@ -79,7 +79,7 @@ function SkillPage() {
             <p className="text-xl font-bold text-red-500">
               基本情報技術者試験 合格
             </p>
-            <p className="m-auto w-100 text-left font-bold">
+            <p className="m-auto md:w-100 text-left font-bold">
               開発における基礎固めとして基本情報技術者試験の勉強をし合格しました。
               <br />
               今年の4月に応用情報技術者試験の受験をします。
