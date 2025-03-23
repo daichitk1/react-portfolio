@@ -45,28 +45,45 @@ function SkillPage() {
           </div>
         </div>
         <div className="m-auto my-9">
-          <p className="text-2xl md:text-3x text-blue-500">
+          <p className="text-2xl md:text-3xl text-blue-500">
             コーディングスキル
           </p>
-          <p className="text-xl">AtCoder</p>
-          <p className="text-xl">プログラミングコンテストに1年以上参加。</p>
-          <p className="text-xl">ランクは茶色(上位25パーセントほど)</p>
-          <div className="m-auto flex justify-center">
-            <a href="https://atcoder.jp/users/TKq">
-              <img
-                className="md:w-150 md:h-100 m-auto w-100 h-60 hover:opacity-50"
-                src="../images/atcoder.png"
-              />
-              <p className="w-150 h-10">
-                これまで参加したコンテスト(atcoderページより)
+
+          <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
+            <p className="text-xl text-red-500 font-bold">AtCoder</p>
+            <div>
+              <p className="my-3 mx-auto font-bold text-left w-100">
+                2021末からPythonを習得するためにプログラミングコンテストAtCoderに1年以上参加しました。
+                <br />
+                AtCoderは毎週末(土曜または日曜)にコンテストを開催しており1週間過去問で練習をし、本番のコンテストで力試しをしていました。
+                <br />
+                現在のランクは茶色です。
               </p>
-            </a>
+            </div>
+            <div className="m-auto flex justify-center">
+              <a href="https://atcoder.jp/users/TKq">
+                <img
+                  className="md:w-120 md:h-80 m-auto w-80 h-50 hover:opacity-50"
+                  src="../images/atcoder.png"
+                />
+                <p className="w-150 h-10">
+                  これまで参加したコンテスト(atcoderページより)
+                </p>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="m-auto my-9">
+        <div className="mx-auto my-9 py-5">
           <p className="text-2xl md:text-3xl text-blue-500">資格</p>
-          <div>
-            <p className="text-xl">基本情報技術者試験 合格</p>
+          <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
+            <p className="text-xl font-bold text-red-500">
+              基本情報技術者試験 合格
+            </p>
+            <p className="m-auto w-100 text-left font-bold">
+              開発における基礎固めとして基本情報技術者試験の勉強をし合格しました。
+              <br />
+              今年の4月に応用情報技術者試験の受験をします。
+            </p>
             <a href="https://cat-and-mountain.com/blog/?p=22">
               <img
                 className="rounded-full w-30 h-30 my-3 mx-auto hover:opacity-50"

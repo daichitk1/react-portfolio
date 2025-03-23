@@ -1,8 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import AllCommon from "./AllCommon";
-import { useState } from "react";
 function ProfilePage() {
-  const [mountain, setMountain] = useState(true);
   return (
     <>
       <div>
@@ -34,10 +32,7 @@ function ProfilePage() {
             <p className="text-3xl font-bold text-blue-500">趣味</p>
 
             <div className="grid grid-cols-1">
-              <div
-                className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100 hover:opacity-50"
-                onClick={() => setMountain(!mountain)}
-              >
+              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100">
                 <img
                   className="rounded-2xl mx-auto w-60 h-40 md:w-80 md:h-70 mx-9"
                   src="../images/Mountain-hobby.JPG"
