@@ -9,7 +9,7 @@ const AllCommmon = () => {
     scroll.scrollToTop();
   };
   return (
-    <div className="flex justify-between h-15 md:h-20 px-5 sticky top-0 bg-white border-b border-gray-300">
+    <div className="flex justify-between h-15 md:h-20 px-5 sticky top-0 bg-white border-b border-gray-300 z-999999">
       <div className="flex items-center">
         <div
           className="text-4xl md:text-5xl lg:text-7xl opacity-50 hover:opacity-25"

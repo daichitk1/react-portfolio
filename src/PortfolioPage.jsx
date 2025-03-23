@@ -31,7 +31,7 @@ function PortfolioPage() {
                         登山の図鑑アプリ⛰️
                       </p>
                       <button
-                        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50"
+                        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50 z-0"
                         onClick={() => setMountainApp(!mountainApp)}
                       >
                         <span class="absolute h-56 w-32 rounded-full bg-neutral-950 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
