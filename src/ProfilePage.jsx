@@ -38,7 +38,7 @@ function ProfilePage() {
                   src="../images/Mountain-hobby.JPG"
                 />
                 <div className="font-bold text-blue-500">登山</div>
-                <p className="position-absolute w-60 md:w-80 mx-auto top-0 left-0 text-left font-bold">
+                <p className="position-absolute w-full md:w-80 mx-auto top-0 left-0 text-left font-bold">
                   今年の元旦に神奈川県の丹沢山に登頂しました (写真は塔ノ岳)
                   <br />
                   昨年は、年25日ほど山に登りました。
@@ -68,7 +68,7 @@ function ProfilePage() {
                   src="../images/marathon-hobby.jpg"
                 />
                 <div className="font-bold text-blue-500">ランニング</div>
-                <p className="w-50 md:w-70 mx-auto text-left font-bold">
+                <p className="w-full md:w-70 mx-auto text-left font-bold">
                   昨年、初めてフルマラソンを走りました。
                   <br />
                   中高陸上部でしたが、ハーフまでしか大会で走ったことがなかったのでチャレンジしました。
@@ -90,7 +90,7 @@ function ProfilePage() {
                 <div className="bg-green-500 mb-5 rounded-3xl w-25 mx-auto">
                   2018年〜
                 </div>
-                <p className="w-50 md:w-70 mx-auto font-bold text-left">
+                <p className="w-full md:w-70 mx-auto font-bold text-left">
                   大学時代にサークルで大道芸サークルに入っており、学園祭や近所のイベントでパフォーマンスをしていました。
                   <br />
                   特に、シガーボックス(箱)を使ったパフォーマンスが得意で新人戦東日本杯では3位に入賞しました。
@@ -108,7 +108,7 @@ function ProfilePage() {
                 <div className="bg-green-500 mb-5 rounded-3xl w-25 mx-auto">
                   2004年〜
                 </div>
-                <p className="w-50 md:w-70 mx-auto font-bold text-left">
+                <p className="w-full md:w-70 mx-auto font-bold text-left">
                   幼稚園から中学一年まで習い事としてけん玉を習っていました。
                   <br />
                   小学4年生の時には小学生の全国大会である全日本少年少女けん玉道選手権大会に出場しました。
