@@ -34,13 +34,13 @@ export default function TemporaryDrawer() {
               <Link to="/">ポートフォリオ</Link>
             </div>
             <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
-              <Link to="/product">ニュース</Link>
-            </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
               <Link to="/profile">自己紹介</Link>
             </div>
             <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
               <Link to="/skill">スキル</Link>
+            </div>
+            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
+              <Link to="/product">ニュース</Link>
             </div>
           </List>
         </Box>
