@@ -52,14 +52,15 @@ const AllCommmon = () => {
               <Link to="/skill">スキル</Link>
             </button>
           </div>
-        </div>
-        <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
-          <button
-            role="link"
-            class="relative underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-500 hover:underline"
-          >
-            <Link to="/product">ニュース</Link>
-          </button>
+
+          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
+            <button
+              role="link"
+              class="relative underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-500 hover:underline"
+            >
+              <Link to="/product">ニュース</Link>
+            </button>
+          </div>
         </div>
         <div className="md:hidden my-auto">
           <TemporaryDrawer />
