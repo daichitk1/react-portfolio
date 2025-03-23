@@ -4,7 +4,7 @@ function ProductPage() {
   return (
     <>
       <AllCommon />
-      <div className="px-5">
+      <div className="mt-9">
         <div className="mx-auto text-4xl text-rose-400 font-bold">ニュース</div>
 
         <div className="my-8 rounded-2xl bg-pink-100 mx-auto md:max-w-250 flex justify-center">

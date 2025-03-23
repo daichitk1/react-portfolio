@@ -5,7 +5,7 @@ function ProfilePage() {
     <>
       <div>
         <AllCommon />
-        <div className="z-20 mx-auto">
+        <div className="z-20 mx-auto mt-9">
           <p className="text-4xl text-rose-400 m-2 font-bold">自己紹介</p>
           <div className="rounded-3xl w-full md:w-250 mx-auto my-15 bg-blue-100 md:px-30 py-5">
             <img

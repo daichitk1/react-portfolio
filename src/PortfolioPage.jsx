@@ -9,7 +9,7 @@ function PortfolioPage() {
     <>
       <div>
         <AllCommon />
-        <div className="mx-auto">
+        <div className="mx-auto mt-9">
           <div className="mx-auto text-2xl md:text-4xl text-rose-400 font-bold">
             ポートフォリオ
           </div>

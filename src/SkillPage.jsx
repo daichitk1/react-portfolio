@@ -4,7 +4,7 @@ function SkillPage() {
   return (
     <>
       <AllCommon />
-      <div className="my-9">
+      <div className="my-9 mt-9">
         <div className="mx-auto mb-7 text-4xl text-rose-400 font-bold">
           スキル
         </div>
