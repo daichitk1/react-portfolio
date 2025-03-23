@@ -230,56 +230,6 @@ function ProductPage() {
             src="../images/basic-information.png"
           />
         </div>
-
-        <div class="my-8 rounded-2xl bg-pink-100 mx-auto md:max-w-250 flex justify-center max-width-3xs flex items-center">
-          <div className="m-5 w-100">
-            <div className="my-5 rounded-full w-50 text-2xl bg-red-300">
-              ポートフォリオ
-            </div>
-            <p className="text-3xl">ポートフォリオサイトを公開</p>
-            <div className="text-left">
-              JavaScript、HTML&CSSを利用し作成しました。herokuで独自ドメインを適用しデプロイしました。
-            </div>
-            <div className="flex justify-center my-5">
-              <div className="mx-3">
-                <a
-                  href="https://github.com/daichitk1/interview_management_app"
-                  target="_blank"
-                >
-                  <img
-                    className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
-                    src="../images/github-mark.png"
-                  />
-                </a>
-                コード
-              </div>
-              <div className="mx-3 md:hidden block">
-                <a
-                  href="http://portfolio.cat-and-mountain.com/"
-                  target="_blank"
-                >
-                  <img
-                    className="mx-10 h-15 w-15 opacity-75 hover:opacity-50"
-                    src="../images/portfolio.jpg"
-                  />
-                  <p>公開ページ</p>
-                </a>
-              </div>
-            </div>
-            <p className="my-5 text-green-500">
-              #JavaScript #HTML #CSS #heroku
-            </p>
-          </div>
-          <div className="hidden md:block">
-            <a href="http://portfolio.cat-and-mountain.com/" target="_blank">
-              <img
-                className="mx-10 h-90 w-90 m-3 opacity-75 hover:opacity-50"
-                src="../images/portfolio.jpg"
-              />
-              <p>利用した書籍</p>
-            </a>
-          </div>
-        </div>
       </div>
     </>
   );
