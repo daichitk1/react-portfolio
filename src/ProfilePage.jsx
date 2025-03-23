@@ -80,7 +80,7 @@ function ProfilePage() {
           </div>
           <div>
             <p className="text-3xl text-blue-500 font-bold">特技</p>
-            <div className="flex justify-center rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100">
+            <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-20 bg-green-100">
               <div>
                 <img
                   className="rounded-2xl w-50 h-80 md:w-70 md:h-100 mx-auto"
@@ -94,6 +94,25 @@ function ProfilePage() {
                   大学時代、シガーボックスでジャグリングをしていました。
                   <br />
                   大学時代にサークルで大道芸サークルに入っており、学園祭や近所のイベントでパフォーマンスをしていました。
+                </p>
+              </div>
+            </div>
+            <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-20 bg-green-100">
+              <div>
+                <img
+                  className="rounded-2xl w-50 md:w-70 mx-auto"
+                  src="../images/kendama_img.png"
+                />
+                <div className="font-bold text-blue-500">けん玉</div>
+                <div className="bg-green-500 mb-5 rounded-3xl w-25 mx-auto">
+                  2004年〜
+                </div>
+                <p className="w-50 md:w-70 mx-auto font-bold text-left">
+                  幼稚園から中学一年まで習い事としてけん玉を習っていました。
+                  <br />
+                  小学4年生の時には小学生の全国大会である全日本少年少女けん玉道選手権大会に出場しました。
+                  <br />
+                  また、小学生のうちに中学生まででに取得できる段位の最高段位(5段)を取得しました。
                 </p>
               </div>
             </div>
