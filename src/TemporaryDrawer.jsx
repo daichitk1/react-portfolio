@@ -14,7 +14,7 @@ export default function TemporaryDrawer() {
   };
 
   return (
-    <div>
+    <div className="rounded-xl bg-blue-100">
       <Button onClick={toggleDrawer(true)}>
         <img
           className="rounded-full w-10 h-10 md:w-15 md:h-15 mx-2 md:mx-5 opacity-50 hover:opacity-25"
@@ -23,22 +23,23 @@ export default function TemporaryDrawer() {
       </Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         <Box
-          sx={{ width: 200 }}
+          sx={{ width: 250 }}
           role="presentation"
           onClick={toggleDrawer(false)}
+          className="bg-blue-100"
         >
-          <List>
-            <div className="text-3xl mx-5 w-30">メニュー</div>
-            <div className="text-2xl w-50 mx-5 my-5 underline hover:opacity-50">
+          <List className="h-screen">
+            <div className="text-3xl m-3 w-30 font-bold">メニュー</div>
+            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
               <Link to="/">ポートフォリオ</Link>
             </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
               <Link to="/product">ニュース</Link>
             </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
               <Link to="/profile">自己紹介</Link>
             </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
               <Link to="/skill">スキル</Link>
             </div>
           </List>
