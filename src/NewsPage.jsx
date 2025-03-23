@@ -7,7 +7,7 @@ function ProductPage() {
       <div className="mt-9">
         <div className="mx-auto text-4xl text-rose-400 font-bold">ニュース</div>
 
-        <div className="my-8 rounded-2xl bg-pink-100 mx-auto md:max-w-250 flex justify-center">
+        <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
               ブログ
@@ -200,7 +200,7 @@ function ProductPage() {
           </div>
         </div>
 
-        <div class="my-8 rounded-2xl bg-pink-100 mx-auto md:max-w-250 flex justify-center max-width-3xs flex items-center">
+        <div class="my-8 rounded-2xl bg-green-100 mx-auto md:max-w-250 flex justify-center max-width-3xs flex items-center">
           <div className="m-5 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-green-300">
               資格
