@@ -87,6 +87,9 @@ function ProfilePage() {
                   src="../images/juggling.PNG"
                 />
                 <div className="font-bold text-blue-500">ジャグリング</div>
+                <div className="bg-green-500 mb-5 rounded-3xl w-25 mx-auto">
+                  2018年〜
+                </div>
                 <p className="w-50 md:w-70 mx-auto font-bold text-left">
                   大学時代、シガーボックスでジャグリングをしていました。
                   <br />
