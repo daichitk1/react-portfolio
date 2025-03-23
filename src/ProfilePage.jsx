@@ -56,7 +56,7 @@ function ProfilePage() {
                   src="../images/cycling-hobby.jpg"
                 />
                 <div className="font-bold text-blue-500">サイクリング</div>
-                <p className="w-50 md:w-70 mx-auto text-left font-bold">
+                <p className="w-full md:w-70 mx-auto text-left font-bold">
                   昨年、京都市内を1日かけてサイクリングしました。
                   <br />
                   新しい街で知らない一面をサイクリングで見るのが好きです。
