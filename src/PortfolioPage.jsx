@@ -133,7 +133,7 @@ function PortfolioPage() {
                   return (
                     <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
-                        面接管理アプリ
+                        自己総合管理ツール
                       </p>
                       <button
                         className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50"
@@ -145,7 +145,7 @@ function PortfolioPage() {
                       <div className="my-5">
                         <img
                           className="h-90 w-90 mx-auto"
-                          src="../images/interview_exam.png"
+                          src="../images/self_control.png"
                         />
                       </div>
                     </div>
@@ -197,7 +197,7 @@ function PortfolioPage() {
                           >
                             <img
                               className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
-                              src="../images/self_control.png"
+                              src="../images/github-mark.png"
                             />
                           </a>
                           コード
