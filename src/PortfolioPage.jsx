@@ -2,7 +2,7 @@ import "./App.css";
 import { Link, Outlet } from "react-router-dom";
 import AllCommon from "./AllCommon";
 import { useState } from "react";
-import Footer from "./Footer";
+
 function PortfolioPage() {
   const [mountainApp, setMountainApp] = useState(true);
   const [interviewApp, setInterviewApp] = useState(true);
@@ -133,7 +133,7 @@ function PortfolioPage() {
                   return (
                     <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
-                        自己総合管理ツール
+                        自己管理総合ツール
                       </p>
                       <button
                         className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50"
@@ -154,7 +154,7 @@ function PortfolioPage() {
                   return (
                     <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
-                        自己総合管理ツール
+                        自己管理総合ツール
                       </p>
 
                       <button class="my-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50">
@@ -173,9 +173,8 @@ function PortfolioPage() {
                           アプリ概要
                         </p>
                         社会人として働く中で、自己管理の大切さを実感しました。
-                        そのため、メモ機能、日記機能、タスク管理機能といった
-                        <br />
-                        自己管理に関わる機能をまとめたアプリを作成し、自分で使いながら改良を重ねています。
+                        そのため、メモ機能や日記機能、タスク管理機能といった
+                        総合的な自己管理の要素を詰め込んだアプリを作成し、日々改良を重ねています。
                         <p className="mt-4 text-2xl text-blue-500 font-bold">
                           目的
                         </p>
@@ -232,7 +231,6 @@ function PortfolioPage() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
