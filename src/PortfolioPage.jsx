@@ -2,6 +2,7 @@ import "./App.css";
 import { Link, Outlet } from "react-router-dom";
 import AllCommon from "./AllCommon";
 import { useState } from "react";
+import Footer from "./Footer";
 function PortfolioPage() {
   const [mountainApp, setMountainApp] = useState(true);
   const [interviewApp, setInterviewApp] = useState(true);
@@ -153,14 +154,14 @@ function PortfolioPage() {
                   return (
                     <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
-                        面接管理アプリ
+                        自己総合管理ツール
                       </p>
 
                       <button class="my-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50">
                         <span class="absolute h-56 w-32 rounded-full bg-neutral-950 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
                         <span class="relative">
                           <a
-                            href="https://mysterious-reaches-91685-813905271b2c.herokuapp.com/"
+                            href="https://desolate-cliffs-66576-cc5b606ff424.herokuapp.com/"
                             target="_blank"
                           >
                             アプリページへ
@@ -171,12 +172,14 @@ function PortfolioPage() {
                         <p className="mt-4 text-2xl text-blue-500 font-bold">
                           アプリ概要
                         </p>
-                        転職活動では、企業によって面接の進度が異なり、進度を管理する必要があります。
-                        そこで面接管理アプリのプロトタイプをRailsで作成し公開しました。
+                        社会人として働く中で、自己管理の大切さを実感しました。
+                        そのため、メモ機能、日記機能、タスク管理機能といった
+                        <br />
+                        自己管理に関わる機能をまとめたアプリを作成し、自分で使いながら改良を重ねています。
                         <p className="mt-4 text-2xl text-blue-500 font-bold">
                           目的
                         </p>
-                        バックエンド(Ruby on rails)の学習と実装
+                        Ruby on railsの学習と実装
                         <p className="mt-4 text-2xl text-blue-500 font-bold">
                           利用した技術
                         </p>
@@ -189,12 +192,12 @@ function PortfolioPage() {
                       <div className="flex justify-center my-5">
                         <div className="mx-3">
                           <a
-                            href="https://github.com/daichitk1/interview_management_app"
+                            href="https://github.com/daichitk1/diary"
                             target="_blank"
                           >
                             <img
                               className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
-                              src="../images/github-mark.png"
+                              src="../images/self_control.png"
                             />
                           </a>
                           コード
@@ -229,6 +232,7 @@ function PortfolioPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
