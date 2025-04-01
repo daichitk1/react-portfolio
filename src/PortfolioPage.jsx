@@ -20,7 +20,7 @@ function PortfolioPage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 flex justify-center lg:max-w-280 lg:mx-auto">
             <div
-              className={`h-170 rounded-3xl my-10 ${
+              className={`h-175 rounded-3xl my-10 ${
                 mountainApp ? "bg-pink-100" : "bg-blue-200"
               } lg:max-w-250 mx-auto  flex justify-center w-full sm:w-120 flex items-center`}
             >
@@ -124,7 +124,7 @@ function PortfolioPage() {
             </div>
 
             <div
-              className={`h-170 rounded-3xl my-10 ${
+              className={`h-185 sm:h-175 rounded-3xl my-10 ${
                 interviewApp ? "bg-pink-100" : "bg-blue-200"
               } lg:max-w-250 mx-auto  flex justify-center w-full sm:w-120 flex items-center`}
             >
