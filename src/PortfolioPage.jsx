@@ -133,7 +133,7 @@ function PortfolioPage() {
                   return (
                     <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
-                        自己管理総合ツール
+                        自己総合管理ツール
                       </p>
                       <button
                         className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50"
@@ -154,7 +154,7 @@ function PortfolioPage() {
                   return (
                     <div className="my-10 mx-5 w-full sm:w-100">
                       <p className=" mb-5 text-3xl text-blue-500 font-bold">
-                        自己管理総合ツール
+                        自己総合管理ツール
                       </p>
 
                       <button class="my-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50">
