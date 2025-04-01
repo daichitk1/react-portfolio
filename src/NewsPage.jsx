@@ -7,6 +7,69 @@ function ProductPage() {
       <div className="mt-9">
         <div className="mx-auto text-4xl text-rose-400 font-bold">ニュース</div>
 
+        <div class="my-8 rounded-2xl bg-pink-100 mx-auto md:max-w-250 flex justify-center flex items-center">
+          <div className="m-5 w-100">
+            <div className="my-5 rounded-full w-20 text-2xl bg-red-300">
+              アプリ
+            </div>
+            <p className="text-3xl">自己総合管理ツールを公開</p>
+            <div className="text-left">
+              社会人として働く中で、自己管理の大切さを実感しました。
+              そのため、メモ機能や日記機能、タスク管理機能といった
+              総合的な自己管理の要素を詰め込んだアプリを作成し、日々改良を重ねています。
+            </div>
+            <div className="flex justify-center my-5">
+              <div className="mx-3">
+                <a href="https://github.com/daichitk1/diary" target="_blank">
+                  <img
+                    className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
+                    src="../images/github-mark.png"
+                  />
+                </a>
+                コード
+              </div>
+              <div className="mx-3">
+                <a
+                  href="https://cat-and-mountain.com/blog/?p=62"
+                  target="_blank"
+                >
+                  <img
+                    className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
+                    src="../images/introduction_img.png"
+                  />
+                </a>
+                ブログ
+              </div>
+              <div className="mx-3 block md:hidden">
+                <a
+                  href="https://desolate-cliffs-66576-cc5b606ff424.herokuapp.com/"
+                  target="_blank"
+                >
+                  <img
+                    className="h-15 w-15 hover:opacity-50"
+                    src="../images/self_control.png"
+                  />
+                  公開ページ
+                </a>
+              </div>
+            </div>
+            <p className="my-5 text-green-500">
+              #rails #HTML #CSS #bootstrap #Heroku
+            </p>
+          </div>
+          <div className="hidden md:block">
+            <a
+              href="https://desolate-cliffs-66576-cc5b606ff424.herokuapp.com/"
+              target="_blank"
+            >
+              <img
+                className="hidden md:block m-3 h-100 w-100 hover:opacity-50"
+                src="../images/self_control.png"
+              />
+            </a>
+          </div>
+        </div>
+
         <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
