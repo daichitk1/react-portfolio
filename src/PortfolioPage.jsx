@@ -16,7 +16,7 @@ function PortfolioPage() {
           </div>
 
           <div className="my-5 mx-auto rounded-full w-70 text-3xl bg-red-300">
-            作ったアプリ
+            主な作ったアプリ
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 flex justify-center lg:max-w-280 lg:mx-auto">
             <div
