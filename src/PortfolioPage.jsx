@@ -201,6 +201,18 @@ function PortfolioPage() {
                           </a>
                           コード
                         </div>
+                        <div className="mx-3">
+                          <a
+                            href="https://cat-and-mountain.com/blog/?p=62"
+                            target="_blank"
+                          >
+                            <img
+                              className="rounded-full w-15 h-15 mx-auto hover:opacity-50"
+                              src="../images/introduction_img.png"
+                            />
+                          </a>
+                          アプリの開発詳細
+                        </div>
                       </div>
                       <button
                         className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50"
