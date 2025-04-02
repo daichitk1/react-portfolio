@@ -11,7 +11,7 @@ function ProductPage() {
             <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
               ブログ
             </div>
-            <p className="text-3xl mb-5">ブログの記事一覧(技術系)</p>
+            <p className="text-3xl mb-5">ブログ記事</p>
             <div>
               <div>
                 <a href="https://cat-and-mountain.com/blog/?p=89">
@@ -19,33 +19,14 @@ function ProductPage() {
                     ・エンジニアという仕事に対する向き合い方が甘かった
                   </p>
                 </a>
-                <a href="https://cat-and-mountain.com/blog/?p=62">
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=76">
                   <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・自己管理ツールを公開しました
+                    ・4月の学習計画
                   </p>
                 </a>
                 <a href="https://cat-and-mountain.com/blog/?p=55">
                   <p className="text-left text-xl ml-7 underline hover:text-blue-400">
                     ・3月31日から4月6日の進捗
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=26&action=edit">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・フロントエンド、webの学習教材のまとめ
-                  </p>
-                </a>
-              </div>
-              <div>
-                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=22&action=edit">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・2024年に基本情報技術者試験を受けに行った時の話
-                  </p>
-                </a>
-              </div>
-              <div>
-                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=9&action=edit">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・登山の図鑑アプリを公開しました
                   </p>
                 </a>
               </div>
