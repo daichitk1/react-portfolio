@@ -20,44 +20,44 @@ function SkillPage() {
               </p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-violet-400 px-5 max-w-50 mx-auto md:mx-0  text-white">
+              <h2 className="rounded-full bg-blue-400 px-5 max-w-50 mx-auto md:mx-0  text-white">
                 バックエンド
               </h2>
               <p className="px-5">Ruby、Ruby on rails、Python</p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-gray-400 px-5 text-white max-w-50 mx-auto md:mx-0 ">
+              <h2 className="rounded-full bg-cyan-400 px-5 text-white max-w-50 mx-auto md:mx-0 ">
                 その他言語
               </h2>
               <p className="px-5">C</p>
             </div>
 
             <div className="md:flex">
-              <h2 className="rounded-full bg-blue-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
+              <h2 className="rounded-full bg-violet-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 データベース
               </h2>
               <p className="px-5">splite、postgresql</p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-red-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
+              <h2 className="rounded-full bg-pink-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 バージョン管理
               </h2>
               <p className="px-5 max-w-50 mx-auto md:mx-0 ">github</p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-pink-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
+              <h2 className="rounded-full bg-red-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 デプロイ
               </h2>
               <p className="px-5">heroku、Vercel</p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-cyan-400 px-5 max-w-50 mx-auto md:mx-0 text-white text-white">
+              <h2 className="rounded-full bg-green-400 px-5 max-w-50 mx-auto md:mx-0 text-white text-white">
                 AI
               </h2>
               <p className="px-5">Codeium</p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-green-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
+              <h2 className="rounded-full bg-gray-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 その他
               </h2>
               <p className="px-5">eslint、prettier、Vite、vscode、yarn、npm</p>
