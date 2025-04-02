@@ -14,6 +14,11 @@ function ProductPage() {
             <p className="text-3xl mb-5">ブログの記事一覧(技術系)</p>
             <div>
               <div>
+                <a href="https://cat-and-mountain.com/blog/?p=89">
+                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
+                    ・エンジニアという仕事に対する向き合い方が甘かった
+                  </p>
+                </a>
                 <a href="https://cat-and-mountain.com/blog/?p=62">
                   <p className="text-left text-xl ml-7 underline hover:text-blue-400">
                     ・自己管理ツールを公開しました
