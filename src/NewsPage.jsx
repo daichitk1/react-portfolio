@@ -11,22 +11,22 @@ function ProductPage() {
             <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
               ブログ
             </div>
-            <p className="text-3xl mb-5">ブログ記事</p>
+            <p className="text-3xl mb-5">ブログ記事(おすすめ)</p>
             <div>
               <div>
                 <a href="https://cat-and-mountain.com/blog/?p=89">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・エンジニアという仕事に対する向き合い方が甘かった
+                  <p className="left text-2xl my-3 ml-7 text-left underline hover:text-blue-400">
+                    エンジニアという仕事に対する向き合い方が甘かった
                   </p>
                 </a>
                 <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=76">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・4月の学習計画
+                  <p className="text-left text-2xl my-3 ml-7 underline hover:text-blue-400">
+                    4月の学習計画
                   </p>
                 </a>
                 <a href="https://cat-and-mountain.com/blog/?p=55">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・3月31日から4月6日の進捗
+                  <p className="text-left text-2xl my-3 ml-7 underline hover:text-blue-400">
+                    3月31日から4月6日の進捗
                   </p>
                 </a>
               </div>
