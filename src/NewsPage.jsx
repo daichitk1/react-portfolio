@@ -6,7 +6,55 @@ function ProductPage() {
       <AllCommon />
       <div className="mt-9">
         <div className="mx-auto text-4xl text-rose-400 font-bold">ニュース</div>
-
+        <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
+          <div className="m-5 w-100">
+            <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
+              ブログ
+            </div>
+            <p className="text-3xl mb-5">ブログの記事一覧(技術系)</p>
+            <div>
+              <div>
+                <a href="https://cat-and-mountain.com/blog/?p=62">
+                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
+                    ・自己管理ツールを公開しました
+                  </p>
+                </a>
+                <a href="https://cat-and-mountain.com/blog/?p=55">
+                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
+                    ・3月31日から4月6日の進捗
+                  </p>
+                </a>
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=26&action=edit">
+                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
+                    ・フロントエンド、webの学習教材のまとめ
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=22&action=edit">
+                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
+                    ・2024年に基本情報技術者試験を受けに行った時の話
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=9&action=edit">
+                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
+                    ・登山の図鑑アプリを公開しました
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <a href="https://cat-and-mountain.com/blog/" target="_blank">
+              <img
+                className="m-15 rounded-full m-3 hidden md:block h-80 w-80 hover:opacity-50"
+                src="../images/introduction_img.png"
+              />
+            </a>
+          </div>
+        </div>
         <div class="my-8 rounded-2xl bg-pink-100 mx-auto md:max-w-250 flex justify-center flex items-center">
           <div className="m-5 w-100">
             <div className="my-5 rounded-full w-20 text-2xl bg-red-300">
@@ -65,56 +113,6 @@ function ProductPage() {
               <img
                 className="hidden md:block m-3 h-100 w-100 hover:opacity-50"
                 src="../images/self_control.png"
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
-          <div className="m-5 w-100">
-            <div className="my-5 rounded-full w-20 text-2xl bg-blue-300">
-              ブログ
-            </div>
-            <p className="text-3xl mb-5">ブログの記事一覧(技術系)</p>
-            <div>
-              <div>
-                <a href="https://cat-and-mountain.com/blog/?p=62">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・自己管理ツールを公開しました
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=55">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・3月31日から4月6日の進捗
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=26&action=edit">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・フロントエンド、webの学習教材のまとめ
-                  </p>
-                </a>
-              </div>
-              <div>
-                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=22&action=edit">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・2024年に基本情報技術者試験を受けに行った時の話
-                  </p>
-                </a>
-              </div>
-              <div>
-                <a href="https://cat-and-mountain.com/blog/wp-admin/post.php?post=9&action=edit">
-                  <p className="text-left text-xl ml-7 underline hover:text-blue-400">
-                    ・登山の図鑑アプリを公開しました
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="hidden md:block">
-            <a href="https://cat-and-mountain.com/blog/" target="_blank">
-              <img
-                className="m-15 rounded-full m-3 hidden md:block h-80 w-80 hover:opacity-50"
-                src="../images/introduction_img.png"
               />
             </a>
           </div>
