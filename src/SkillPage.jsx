@@ -9,38 +9,54 @@ function SkillPage() {
           スキル
         </div>
         <div>
-          <p className="text-2xl md:text-3xl text-blue-500">プログラミング</p>
-          <div className="p-5 my-5 w-full md:w-250  mx-auto bg-pink-100 rounded-3xl">
-            <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="flex justify-center md:justify-end my-5">
-                <div className="rounded-full mx-5 mb-5 bg-blue-300 p-5">
-                  <p className="mb-5 text-2xl w-60">フロントエンド</p>
-                  <div className="text-xl">
-                    HTML CSS(tailwindcss)
-                    <p>JavaScript(react)</p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex justify-center md:justify-normal my-5">
-                <div className="rounded-full mb-5 mx-5 bg-red-300 p-5">
-                  <p className="mb-5 text-2xl w-60">バックエンド</p>
-                  <div className="text-xl">
-                    Ruby<p>(Ruby on rails)</p>
-                  </div>
-                </div>
-              </div>
+          <p className="text-2xl md:text-3xl text-blue-500">技術スタック</p>
+          <div className="p-5 my-5 w-full md:w-200  mx-auto bg-pink-100 rounded-3xl">
+            <div className="md:flex">
+              <h2 className="rounded-full bg-gray-500 px-5 max-w-50 mx-auto md:mx-0 text-white">
+                フロントエンド
+              </h2>
+              <p className="px-5">
+                HTML、CSS、tailwindcss、bootstrap、JavaScript、TypeScript、React
+              </p>
+            </div>
+            <div className="md:flex my-5">
+              <h2 className="rounded-full bg-gray-500 px-5 max-w-50 mx-auto md:mx-0  text-white">
+                バックエンド
+              </h2>
+              <p className="px-5">Ruby、Ruby on rails、Python</p>
+            </div>
+            <div className="md:flex my-5">
+              <h2 className="rounded-full bg-gray-500 px-5 text-white max-w-50 mx-auto md:mx-0 ">
+                その他
+              </h2>
+              <p className="px-5">C</p>
             </div>
 
-            <div className="my-5 flex justify-center">
-              <div className="rounded-full mb-5 mx-5 bg-green-200 p-5">
-                <p className="text-2xl w-60">これまで</p>
-                <div className="text-xl">
-                  <p>Python(約3年)</p>
-                  <p>C(約4年)</p>
-                  <p>Java(半年以下)</p>
-                  <p>SQL(半年以下)</p>
-                </div>
-              </div>
+            <div className="md:flex">
+              <h2 className="rounded-full bg-blue-300 px-5 max-w-50 mx-auto md:mx-0 ">
+                データベース
+              </h2>
+              <p className="px-5">splite、postgresql</p>
+            </div>
+            <div className="md:flex my-5">
+              <h2 className="rounded-full bg-red-300 px-5 max-w-50 mx-auto md:mx-0 ">
+                バージョン管理
+              </h2>
+              <p className="px-5 max-w-50 mx-auto md:mx-0 ">github</p>
+            </div>
+            <div className="md:flex my-5">
+              <h2 className="rounded-full bg-pink-300 px-5 max-w-50 mx-auto md:mx-0 ">
+                デプロイ
+              </h2>
+              <p className="px-5">heroku、Vercel</p>
+            </div>
+            <div className="md:flex my-5">
+              <h2 className="rounded-full bg-green-500 px-5 max-w-50 mx-auto md:mx-0 ">
+                その他
+              </h2>
+              <p className="px-5">
+                eslint、prettier、Vite、vscode、yarn、npm、Codeium
+              </p>
             </div>
           </div>
         </div>
