@@ -92,6 +92,20 @@ function SkillPage() {
               </a>
             </div>
           </div>
+          <div className="bg-pink-100 rounded-3xl p-5 my-20 w-full md:w-250 mx-auto">
+            <p className="text-xl text-red-500 font-bold">paiza</p>
+            <div>
+              <p className="my-3 mx-auto font-bold text-left md:w-100">
+                2025年、ITエンジニア向け転職・就活・学習サービス【paiza】のスキルチェックでAランクになりました。
+              </p>
+            </div>
+            <div className="m-auto flex justify-center">
+              <img
+                className="md:w-220 m-auto w-80 hover:opacity-50"
+                src="../images/paiza.png"
+              />
+            </div>
+          </div>
         </div>
         <div className="mx-auto my-9 py-5">
           <p className="text-2xl md:text-3xl text-blue-500">資格</p>
