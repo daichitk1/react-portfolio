@@ -70,7 +70,7 @@ function SkillPage() {
           </p>
 
           <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
-            <p className="text-xl text-red-500 font-bold">AtCoder</p>
+            <p className="text-2xl text-red-500 font-bold">AtCoder</p>
             <div>
               <p className="my-3 mx-auto font-bold text-left md:w-100">
                 2021末からPythonを習得するためにプログラミングコンテストAtCoderに1年以上参加しました。
@@ -93,7 +93,7 @@ function SkillPage() {
             </div>
           </div>
           <div className="bg-pink-100 rounded-3xl p-5 my-20 w-full md:w-250 mx-auto">
-            <p className="text-xl text-red-500 font-bold">paiza</p>
+            <p className="text-2xl text-red-500 font-bold">paiza</p>
             <div>
               <p className="my-3 mx-auto font-bold text-left md:w-100">
                 2025年、ITエンジニア向け転職・就活・学習サービス【paiza】のスキルチェックでAランクになりました。
