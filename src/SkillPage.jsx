@@ -69,7 +69,7 @@ function SkillPage() {
             コーディングスキル
           </p>
 
-          <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
+          <div className="bg-pink-100 rounded-3xl p-5 mt-5 w-full md:w-250 mx-auto">
             <p className="text-2xl text-red-500 font-bold">AtCoder</p>
             <div>
               <p className="my-3 mx-auto font-bold text-left md:w-100">
@@ -92,7 +92,7 @@ function SkillPage() {
               </a>
             </div>
           </div>
-          <div className="bg-pink-100 rounded-3xl p-5 my-20 w-full md:w-250 mx-auto">
+          <div className="bg-pink-100 rounded-3xl p-5 m-3 w-full md:w-250 mx-auto">
             <p className="text-2xl text-red-500 font-bold">paiza</p>
             <div>
               <p className="my-3 mx-auto font-bold text-left md:w-100">
@@ -107,7 +107,7 @@ function SkillPage() {
             </div>
           </div>
         </div>
-        <div className="mx-auto my-9 py-5">
+        <div className="mx-auto my-2 py-5">
           <p className="text-2xl md:text-3xl text-blue-500">資格</p>
           <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
             <p className="text-xl font-bold text-red-500">
