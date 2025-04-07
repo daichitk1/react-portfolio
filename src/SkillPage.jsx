@@ -10,7 +10,7 @@ function SkillPage() {
         </div>
         <div>
           <p className="text-2xl md:text-3xl text-blue-500">技術スタック</p>
-          <div className="p-5 my-5 w-full md:w-200  mx-auto bg-pink-100 rounded-3xl">
+          <div className="p-5 my-5 w-full md:w-250  mx-auto bg-pink-100 rounded-3xl">
             <div className="md:flex">
               <h2 className="rounded-full bg-indigo-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 フロントエンド
