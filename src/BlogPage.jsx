@@ -60,6 +60,11 @@ function BlogPage() {
                 毎日新しい技術に触れることが重要だと思い、ZennとQiitaで気になる記事を読みブログにまとめています。
               </p>
               <div>
+                <a href="https://cat-and-mountain.com/blog/?p=139">
+                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
+                    4月9日に気になった記事で感じたことまとめ(朝活)
+                  </p>
+                </a>
                 <a href="https://cat-and-mountain.com/blog/?p=135">
                   <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
                     4月8日に気になった記事で感じたことまとめ(朝活)
