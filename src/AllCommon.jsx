@@ -58,7 +58,7 @@ const AllCommmon = () => {
               role="link"
               class="relative underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-500 hover:underline"
             >
-              <Link to="/product">ニュース</Link>
+              <Link to="/blog">ブログ</Link>
             </button>
           </div>
         </div>
