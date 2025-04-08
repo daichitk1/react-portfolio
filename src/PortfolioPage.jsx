@@ -228,28 +228,6 @@ function PortfolioPage() {
             </div>
           </div>
         </div>
-
-        <div className="bg-blue-200 w-full md:w-250 my-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
-          <div className="flex justify-end text-xl sm:text-2xl mx-auto md:mx-5 md:text-3xl">
-            <div>
-              <div className="text-blue-900 font-bold">
-                エンジニアとして生きる <br />
-                -山と猫と人生-
-              </div>
-              <div className="mt-2 text-xl md:text-2xl">
-                技術ブログを書いています。
-              </div>
-            </div>
-          </div>
-          <div>
-            <a href="https://cat-and-mountain.com/blog/">
-              <img
-                className="rounded-full w-50 h-50 mx-auto md:mx-0 md:w-70 md:h-70 hover:opacity-50"
-                src="../images/introduction_img.png"
-              />
-            </a>
-          </div>
-        </div>
       </div>
     </>
   );
