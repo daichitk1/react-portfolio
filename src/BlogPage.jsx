@@ -4,10 +4,13 @@ function BlogPage() {
   return (
     <>
       <AllCommon />
-      <div className="bg-blue-200 w-full md:w-250 mt-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
+      <div className="bg-blue-200 w-full md:w-250 mt-10 md:mt-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
         <div className="flex justify-end text-xl sm:text-2xl mx-auto md:mx-5 md:text-3xl">
           <div>
-            <div className="text-blue-900 font-bold">
+            <div
+              className="text-2xl md:text-3xl
+            text-blue-900 font-bold"
+            >
               エンジニアとして生きる <br />
               -山と猫と人生-
             </div>
@@ -28,7 +31,7 @@ function BlogPage() {
       <div className="mt-9">
         <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100 my-10">
-            <p className="text-3xl mb-5 text-blue-900 font-bold">
+            <p className="text-xl md:text-3xl mb-5 text-blue-900 font-bold">
               エンジニア職への向き合い方
             </p>
             <div>
@@ -51,11 +54,11 @@ function BlogPage() {
       <div className="mt-9">
         <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100">
-            <p className="text-3xl mb-5 font-bold text-blue-900">
+            <p className="text-2xl md:text-3xl mb-5 font-bold text-blue-900">
               朝活始めました
             </p>
             <div>
-              <p className="text-2xl mb-5">
+              <p className="text-xl mb:text-2xl mb-5">
                 {" "}
                 毎日新しい技術に触れることが重要だと思い、ZennとQiitaで気になる記事を読みブログにまとめています。
               </p>
@@ -98,9 +101,11 @@ function BlogPage() {
       <div className="mt-9">
         <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100">
-            <p className="text-3xl mb-5 font-bold text-blue-900">今週の進捗</p>
+            <p className="text-2xl md:text-3xl mb-5 font-bold text-blue-900">
+              今週の進捗
+            </p>
             <div>
-              <p className="text-2xl mb-5 w-100">
+              <p className="text-xl mb:text-2xl mb-5">
                 {" "}
                 毎日行ったことをブログにまとめています。
               </p>
