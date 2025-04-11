@@ -1,5 +1,4 @@
 import "./App.css";
-import { Link, Outlet } from "react-router-dom";
 import AllCommon from "./AllCommon";
 import { useState } from "react";
 

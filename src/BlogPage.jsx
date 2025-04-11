@@ -1,4 +1,3 @@
-import { Link, Outlet } from "react-router-dom";
 import AllCommon from "./AllCommon";
 function BlogPage() {
   return (
