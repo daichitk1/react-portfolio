@@ -15,14 +15,15 @@ function SkillPage() {
                 フロントエンド
               </h2>
               <p className="px-5">
-                HTML、CSS、tailwindcss、bootstrap、JavaScript、TypeScript、React
+                HTML、CSS、Tailwind
+                CSS、bootstrap、JavaScript、TypeScript、React
               </p>
             </div>
             <div className="md:flex my-5">
               <h2 className="rounded-full bg-blue-400 px-5 max-w-50 mx-auto md:mx-0  text-white">
                 バックエンド
               </h2>
-              <p className="px-5">Ruby、Ruby on rails、Python</p>
+              <p className="px-5">Ruby、Ruby on Rails、Python</p>
             </div>
             <div className="md:flex my-5">
               <h2 className="rounded-full bg-cyan-400 px-5 text-white max-w-50 mx-auto md:mx-0 ">
@@ -35,19 +36,19 @@ function SkillPage() {
               <h2 className="rounded-full bg-violet-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 データベース
               </h2>
-              <p className="px-5">splite、postgresql</p>
+              <p className="px-5">SQLite、PostgreSQL</p>
             </div>
             <div className="md:flex my-5">
               <h2 className="rounded-full bg-pink-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 バージョン管理
               </h2>
-              <p className="px-5 max-w-50 mx-auto md:mx-0 ">github</p>
+              <p className="px-5 max-w-50 mx-auto md:mx-0 ">GitHub</p>
             </div>
             <div className="md:flex my-5">
               <h2 className="rounded-full bg-red-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 デプロイ
               </h2>
-              <p className="px-5">heroku、Vercel</p>
+              <p className="px-5">Heroku、Vercel</p>
             </div>
             <div className="md:flex my-5">
               <h2 className="rounded-full bg-green-400 px-5 max-w-50 mx-auto md:mx-0 text-white text-white">
