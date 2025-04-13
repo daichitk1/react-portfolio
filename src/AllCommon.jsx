@@ -1,7 +1,5 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import TemporaryDrawer from "./TemporaryDrawer";
-import LinearProgress from "@mui/material/LinearProgress";
-import { Suspense } from "react";
 import { animateScroll as scroll } from "react-scroll";
 
 const AllCommmon = () => {

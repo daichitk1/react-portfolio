@@ -13,7 +13,7 @@ const PortfolioPage = lazy(() =>
 const BlogPage = lazy(() => import("./BlogPage.jsx"));
 const ProfilePage = lazy(() => import("./ProfilePage.jsx"));
 const SkillPage = lazy(() => import("./SkillPage.jsx"));
-
+const Page404 = lazy(() => import("./Page404.jsx"));
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Suspense
@@ -29,6 +29,7 @@ ReactDOM.createRoot(root).render(
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/skill" element={<SkillPage />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
