@@ -9,7 +9,7 @@ function SkillPage() {
         </div>
         <div>
           <p className="text-2xl md:text-3xl text-blue-500">技術スタック</p>
-          <div className="p-5 my-5 w-full md:w-250  mx-auto bg-pink-100 rounded-3xl">
+          <div className="p-5 my-5 w-full md:w-250  mx-auto bg-pink-100 hover:bg-pink-200 rounded-3xl">
             <div className="md:flex">
               <h2 className="rounded-full bg-indigo-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 フロントエンド
@@ -20,7 +20,7 @@ function SkillPage() {
               </p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-blue-400 px-5 max-w-50 mx-auto md:mx-0  text-white">
+              <h2 className="rounded-full bg-blue-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 バックエンド
               </h2>
               <p className="px-5">Ruby、Ruby on Rails、Python</p>
@@ -69,7 +69,7 @@ function SkillPage() {
             コーディングスキル
           </p>
 
-          <div className="bg-pink-100 rounded-3xl p-5 mt-5 w-full md:w-250 mx-auto">
+          <div className="bg-pink-100 hover:bg-pink-200 rounded-3xl p-5 mt-5 w-full md:w-250 mx-auto">
             <p className="text-2xl text-red-500 font-bold">AtCoder</p>
             <div>
               <p className="my-3 mx-auto font-bold text-left md:w-100">
@@ -92,7 +92,7 @@ function SkillPage() {
               </a>
             </div>
           </div>
-          <div className="bg-pink-100 rounded-3xl p-5 m-3 w-full md:w-250 mx-auto">
+          <div className="bg-pink-100 hover:bg-pink-200 rounded-3xl p-5 m-3 w-full md:w-250 mx-auto">
             <p className="text-2xl text-red-500 font-bold">paiza</p>
             <div>
               <p className="my-3 mx-auto font-bold text-left md:w-100">
@@ -100,16 +100,13 @@ function SkillPage() {
               </p>
             </div>
             <div className="m-auto flex justify-center">
-              <img
-                className="md:w-220 m-auto w-80 hover:opacity-50"
-                src="../images/paiza.png"
-              />
+              <img className="md:w-220 m-auto w-80" src="../images/paiza.png" />
             </div>
           </div>
         </div>
         <div className="mx-auto my-2 py-5">
           <p className="text-2xl md:text-3xl text-blue-500">資格</p>
-          <div className="bg-pink-100 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
+          <div className="bg-pink-100 hover:bg-pink-200 rounded-3xl p-5 my-5 w-full md:w-250 mx-auto">
             <p className="text-xl font-bold text-red-500">
               基本情報技術者試験 合格
             </p>

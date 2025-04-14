@@ -3,7 +3,7 @@ function BlogPage() {
   return (
     <>
       <AllCommon />
-      <div className="bg-blue-200 w-full md:w-250 mt-10 md:mt-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
+      <div className="bg-blue-200 hover:bg-blue-300 w-full md:w-250 mt-10 md:mt-20 rounded-3xl grid grid-cols-1 md:grid-cols-2 mx-auto h-100 md:h-170 flex items-center justify-middle">
         <div className="flex justify-end text-xl sm:text-2xl mx-auto md:mx-5 md:text-3xl">
           <div>
             <div
@@ -28,7 +28,7 @@ function BlogPage() {
         </div>
       </div>
       <div className="mt-9">
-        <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
+        <div className="my-8 rounded-2xl bg-blue-100 hover:bg-blue-200 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100 my-10">
             <p className="text-xl md:text-3xl mb-5 text-blue-900 font-bold">
               エンジニア職への向き合い方
@@ -51,7 +51,7 @@ function BlogPage() {
         </div>
       </div>
       <div className="mt-9">
-        <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
+        <div className="my-8 rounded-2xl bg-blue-100 hover:bg-blue-200 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100">
             <p className="text-2xl md:text-3xl mb-5 font-bold text-blue-900">
               朝活始めました
@@ -103,7 +103,7 @@ function BlogPage() {
         </div>
       </div>
       <div className="mt-9">
-        <div className="my-8 rounded-2xl bg-blue-100 mx-auto md:max-w-250 flex justify-center">
+        <div className="my-8 rounded-2xl bg-blue-100 hover:bg-blue-200 mx-auto md:max-w-250 flex justify-center">
           <div className="m-5 w-100">
             <p className="text-2xl md:text-3xl mb-5 font-bold text-blue-900">
               今週の進捗
