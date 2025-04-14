@@ -11,7 +11,7 @@ function ProfilePage() {
             className="rounded-full w-50 h-50 mx-auto my-5"
             src="../images/my_cat.png"
           />
-          <div className="rounded-3xl w-full md:w-250 mx-auto mb-20 bg-blue-100 md:px-30 py-5">
+          <div className="rounded-3xl w-full md:w-250 mx-auto mb-20 bg-blue-100 hover:bg-blue-200 md:px-30 py-5">
             <div class="md:text-xl rounded-3xl p-5 text-start font-bold">
               はじめまして！
               <br />
@@ -36,7 +36,7 @@ function ProfilePage() {
             <p className="text-3xl font-bold text-blue-500">趣味</p>
 
             <div className="grid grid-cols-1">
-              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100">
+              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-10 bg-pink-100 hover:bg-pink-200">
                 <img
                   className="rounded-2xl mx-auto w-60 h-40 md:w-80 md:h-70 mx-9"
                   src="../images/Mountain-hobby.JPG"
@@ -54,7 +54,7 @@ function ProfilePage() {
                 </p>
               </div>
 
-              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto my-10 bg-pink-100">
+              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto my-10 bg-pink-100 hover:bg-pink-200">
                 <img
                   className="rounded-2xl mx-auto w-50 h-50 md:w-70 md:h-70 mx-9"
                   src="../images/cycling-hobby.jpg"
@@ -66,7 +66,7 @@ function ProfilePage() {
                   新しい街で知らない一面をサイクリングで見るのが好きです。
                 </p>
               </div>
-              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto my-10 bg-pink-100">
+              <div className="rounded-3xl p-5 w-full md:w-250 mx-auto my-10 bg-pink-100 hover:bg-pink-200">
                 <img
                   className="rounded-2xl w-50 h-70 md:w-70 md:h-70 mx-9 mx-auto"
                   src="../images/marathon-hobby.jpg"
@@ -84,7 +84,7 @@ function ProfilePage() {
           </div>
           <div>
             <p className="text-3xl text-blue-500 font-bold">特技</p>
-            <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-20 bg-green-100">
+            <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-20 bg-green-100 hover:bg-green-200">
               <div>
                 <img
                   className="rounded-2xl w-50 h-80 md:w-70 md:h-100 mx-auto"
@@ -102,7 +102,7 @@ function ProfilePage() {
                 </p>
               </div>
             </div>
-            <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-5 bg-green-100">
+            <div className="rounded-3xl p-5 w-full md:w-250 mx-auto mb-5 bg-green-100 hover:bg-green-200">
               <div>
                 <img
                   className="rounded-2xl w-50 md:w-70 mx-auto"
