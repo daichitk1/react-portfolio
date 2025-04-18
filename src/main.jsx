@@ -25,9 +25,9 @@ ReactDOM.createRoot(root).render(
       }
     >
       <Routes>
-        <Route path="/" element={<PortfolioPage />} />
+        <Route path="/" element={<ProfilePage />} />
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/skill" element={<SkillPage />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
