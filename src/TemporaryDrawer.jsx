@@ -30,16 +30,16 @@ export default function TemporaryDrawer() {
           <List className="h-screen">
             <div className="text-3xl m-3 w-30 font-bold">メニュー</div>
 
-            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline font-bold hover:opacity-50">
               <Link to="/">自己紹介</Link>
             </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline font-bold hover:opacity-50">
               <Link to="/portfolio">ポートフォリオ</Link>
             </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline font-bold hover:opacity-50">
               <Link to="/skill">スキル</Link>
             </div>
-            <div className="text-2xl w-50 mx-5 my-5 underline text-blue-500 font-bold hover:opacity-50">
+            <div className="text-2xl w-50 mx-5 my-5 underline font-bold hover:opacity-50">
               <Link to="/blog">ブログ</Link>
             </div>
           </List>
