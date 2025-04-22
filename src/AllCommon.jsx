@@ -10,7 +10,7 @@ const AllCommmon = () => {
     <div className="flex justify-between h-15 md:h-20 px-5 sticky top-0 bg-black border-b border-gray-300 z-1">
       <div className="flex items-center">
         <div
-          className="text-white text-4xl md:text-5xl lg:text-7xl hover:opacity-25"
+          className="cursor-pointer text-white text-4xl md:text-5xl lg:text-7xl hover:opacity-25"
           onClick={scrollToTop}
         >
           Daichi Takei

@@ -37,7 +37,7 @@ function PortfolioPage() {
                         onClick={() => setMountainApp(!mountainApp)}
                       >
                         <span class="absolute h-56 w-32 rounded-full bg-neutral-950 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-                        <span class="relative">詳細</span>
+                        <span class="relative cursor-pointer">詳細</span>
                       </button>
                       <div className="my-5">
                         <img
@@ -143,7 +143,7 @@ function PortfolioPage() {
                         onClick={() => setInterviewApp(!interviewApp)}
                       >
                         <span class="absolute h-56 w-32 rounded-full bg-neutral-950 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-                        <span class="relative">詳細</span>
+                        <span class="relative cursor-pointer">詳細</span>
                       </button>
                       <div className="my-5">
                         <img
