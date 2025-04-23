@@ -51,12 +51,6 @@ function SkillPage() {
               <p className="px-5">Heroku、Vercel</p>
             </div>
             <div className="md:flex my-5">
-              <h2 className="rounded-full bg-green-400 px-5 max-w-50 mx-auto md:mx-0 text-white text-white">
-                AI
-              </h2>
-              <p className="px-5">Codeium</p>
-            </div>
-            <div className="md:flex my-5">
               <h2 className="rounded-full bg-gray-400 px-5 max-w-50 mx-auto md:mx-0 text-white">
                 その他
               </h2>
