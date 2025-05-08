@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import TemporaryDrawer from "./TemporaryDrawer";
 import { animateScroll as scroll } from "react-scroll";
-
+import { HeaderButton } from "./HeaderButton";
 const AllCommmon = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
@@ -18,41 +18,10 @@ const AllCommmon = () => {
       </div>
       <div className="flex md:justify-end">
         <div className="w-0 invisible md:w-125 md:visible flex items-center">
-          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
-            <button
-              role="link"
-              class="relative text-white underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-100 hover:underline"
-            >
-              <Link to="/">自己紹介</Link>
-            </button>
-          </div>
-          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
-            <button
-              role="link"
-              class="text-white relative underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-100 hover:underline"
-            >
-              <Link to="/portfolio">ポートフォリオ</Link>
-            </button>
-          </div>
-
-          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
-            <button
-              role="link"
-              class="text-white relative underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-100 hover:underline"
-            >
-              {" "}
-              <Link to="/skill">スキル</Link>
-            </button>
-          </div>
-
-          <div className="text-xl md:text-2xl me-1 md:mx-2 underline hover:opacity-50">
-            <button
-              role="link"
-              class="text-white relative underline decoration-wavy underline-offset-4 transition-colors duration-300 hover:text-pink-100 hover:underline"
-            >
-              <Link to="/blog">ブログ</Link>
-            </button>
-          </div>
+          <HeaderButton Path="/" Name="自己紹介" />
+          <HeaderButton Path="portfolio" Name="ポートフォリオ" />
+          <HeaderButton Path="skill" Name="スキル" />
+          <HeaderButton Path="blog" Name="ブログ" />
         </div>
         <div className="md:hidden my-auto">
           <TemporaryDrawer />
