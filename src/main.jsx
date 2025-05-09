@@ -8,12 +8,12 @@ import { Suspense } from "react";
 import LinearProgress from "@mui/joy/LinearProgress";
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const PortfolioPage = lazy(() =>
-  sleep(2500).then(() => import("./PortfolioPage.jsx"))
+  sleep(2500).then(() => import("./Page/PortfolioPage.jsx"))
 );
-const BlogPage = lazy(() => import("./BlogPage.jsx"));
-const ProfilePage = lazy(() => import("./ProfilePage.jsx"));
-const SkillPage = lazy(() => import("./SkillPage.jsx"));
-const Page404 = lazy(() => import("./Page404.jsx"));
+const BlogPage = lazy(() => import("./Page/Blog/BlogPage.jsx"));
+const ProfilePage = lazy(() => import("./Page/ProfilePage.jsx"));
+const SkillPage = lazy(() => import("./Page/SkillPage.jsx"));
+const Page404 = lazy(() => import("./Page/Page404.jsx"));
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Suspense

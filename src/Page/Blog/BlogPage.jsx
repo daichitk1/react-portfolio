@@ -1,4 +1,4 @@
-import AllCommon from "./AllCommon";
+import AllCommon from "../../Header/AllCommon";
 import { Blog } from "./Blog";
 function BlogPage() {
   return (

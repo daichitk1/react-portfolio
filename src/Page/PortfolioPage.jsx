@@ -1,5 +1,4 @@
-import "./App.css";
-import AllCommon from "./AllCommon";
+import AllCommon from "../Header/AllCommon";
 import { useState } from "react";
 
 function PortfolioPage() {

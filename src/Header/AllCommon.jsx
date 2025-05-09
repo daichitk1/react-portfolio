@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import TemporaryDrawer from "./TemporaryDrawer";
+import TemporaryDrawer from "../TemporaryDrawer";
 import { animateScroll as scroll } from "react-scroll";
 import { HeaderButton } from "./HeaderButton";
 const AllCommmon = () => {

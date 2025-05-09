@@ -1,5 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
-import AllCommon from "./AllCommon";
+import AllCommon from "../Header/AllCommon";
 function ProfilePage() {
   return (
     <>
