@@ -19,9 +19,9 @@ const AllCommmon = () => {
       <div className="flex md:justify-end">
         <div className="w-0 invisible md:w-125 md:visible flex items-center">
           <HeaderButton Path="/" Name="自己紹介" />
-          <HeaderButton Path="portfolio" Name="ポートフォリオ" />
-          <HeaderButton Path="skill" Name="スキル" />
-          <HeaderButton Path="blog" Name="ブログ" />
+          <HeaderButton Path="/portfolio" Name="ポートフォリオ" />
+          <HeaderButton Path="/skill" Name="スキル" />
+          <HeaderButton Path="/blog" Name="ブログ" />
         </div>
         <div className="md:hidden my-auto">
           <TemporaryDrawer />
