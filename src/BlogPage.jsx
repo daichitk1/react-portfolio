@@ -1,4 +1,5 @@
 import AllCommon from "./AllCommon";
+import { Blog } from "./Blog";
 function BlogPage() {
   return (
     <>
@@ -34,18 +35,14 @@ function BlogPage() {
               エンジニア職への向き合い方
             </p>
             <div>
-              <div>
-                <a href="https://cat-and-mountain.com/blog/?p=96">
-                  <p className="text-left text-xl my-3 ml-7 underline hover:text-blue-400">
-                    エンジニアの”ポテンシャル”採用ってなんだ
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=89">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    エンジニアという仕事に対する向き合い方が甘かった
-                  </p>
-                </a>
-              </div>
+              <Blog
+                link="https://cat-and-mountain.com/blog/?p=96"
+                title="エンジニアの”ポテンシャル”採用ってなんだ"
+              />
+              <Blog
+                link="https://cat-and-mountain.com/blog/?p=89"
+                title="エンジニアという仕事に対する向き合い方が甘かった"
+              />
             </div>
           </div>
         </div>
@@ -62,76 +59,62 @@ function BlogPage() {
                 毎日新しい技術に触れることが重要だと思い、ZennとQiitaで気になる記事を読みブログにまとめています。
               </p>
               <div>
-                <a href="https://cat-and-mountain.com/blog/?p=184">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月17日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=177">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月16日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=168">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月15日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=164">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月14日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=157">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月13日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=155">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月12日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=150">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月11日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=145">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月10日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=139">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月9日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=135">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月8日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=127">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月7日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=120">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月6日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=111">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月5日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=98">
-                  <p className="left text-xl my-3 ml-7 text-left underline hover:text-blue-400">
-                    4月4日に気になった記事で感じたことまとめ(朝活)
-                  </p>
-                </a>
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=184"
+                  title="4月17日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=177"
+                  title="4月16日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=168"
+                  title="4月15日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=164"
+                  title="4月14日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=157"
+                  title="4月13日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=155"
+                  title="4月12日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=150"
+                  title="4月11日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=145"
+                  title="4月10日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=139"
+                  title="4月9日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=135"
+                  title="4月8日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=127"
+                  title="4月7日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=120"
+                  title="4月6日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=111"
+                  title="4月5日に気になった記事で感じたことまとめ(朝活)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=98"
+                  title="4月5日に気になった記事で感じたことまとめ(朝活)"
+                />
               </div>
             </div>
           </div>
@@ -149,16 +132,14 @@ function BlogPage() {
                 毎日行ったことをブログにまとめています。
               </p>
               <div>
-                <a href="https://cat-and-mountain.com/blog/?p=131">
-                  <p className="text-xl my-3 ml-7 underline hover:text-blue-400">
-                    今週の進捗(4/7から4/13)
-                  </p>
-                </a>
-                <a href="https://cat-and-mountain.com/blog/?p=55">
-                  <p className="text-xl my-3 ml-7 underline hover:text-blue-400">
-                    今週の進捗(3/31から4/6)
-                  </p>
-                </a>
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=131"
+                  title="今週の進捗(4/7から4/13)"
+                />
+                <Blog
+                  link="https://cat-and-mountain.com/blog/?p=55"
+                  title="今週の進捗(3/31から4/6)"
+                />
               </div>
             </div>
           </div>
