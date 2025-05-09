@@ -1,3 +1,4 @@
+import "../App.css";
 import AllCommon from "../Header/AllCommon";
 function SkillPage() {
   return (

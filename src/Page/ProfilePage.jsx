@@ -1,11 +1,12 @@
+import "../App.css";
 import AllCommon from "../Header/AllCommon";
 function ProfilePage() {
   return (
     <>
       <div>
         <AllCommon />
-        <div className="z-20 mx-auto mt-9">
-          <p className="text-4xl text-rose-400 m-2 font-bold">自己紹介</p>
+        <div className="z-20 mt-9 mx-auto">
+          <div className="text-4xl text-rose-400 m-2 font-bold">自己紹介</div>
           <img
             className="rounded-full w-50 h-50 mx-auto my-5"
             src="../images/my_cat.png"

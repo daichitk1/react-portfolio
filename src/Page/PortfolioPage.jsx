@@ -1,3 +1,4 @@
+import "../App.css";
 import AllCommon from "../Header/AllCommon";
 import { useState } from "react";
 
