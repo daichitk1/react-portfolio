@@ -158,7 +158,9 @@ function PortfolioPage() {
                     <p className=" mb-5 text-3xl text-blue-500 font-bold">
                       自己総合管理ツール
                     </p>
-
+                    <p className="text-2xl text-red-500">
+                      -- 現在アプリは非公開 --
+                    </p>
                     {/*
                     <button class="my-7 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-blue-500 px-6 font-medium text-neutral-50">
                       <span class="absolute h-56 w-32 rounded-full bg-neutral-950 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
